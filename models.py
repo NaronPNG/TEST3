@@ -5,7 +5,6 @@ from flask_sqlalchemy import SQLAlchemy
 db = SQLAlchemy()
 
 
-# Связь "многие-ко-многим" между пользователями и купленными играми
 user_games = db.Table(
     "user_games",
     db.Column("user_id", db.Integer, db.ForeignKey("users.id"), primary_key=True),
@@ -13,7 +12,6 @@ user_games = db.Table(
 )
 
 
-# Связь "многие-ко-многим" между пользователями и корзиной
 cart_items = db.Table(
     "cart_items",
     db.Column("user_id", db.Integer, db.ForeignKey("users.id"), primary_key=True),
@@ -42,7 +40,7 @@ class User(UserMixin, db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(80), unique=True, nullable=False)
-    password = db.Column(db.String(255), nullable=False)  # Хэш пароля
+    password = db.Column(db.String(255), nullable=False)
     email = db.Column(db.String(120), unique=True, nullable=False)
     avatar_url = db.Column(db.String(500), nullable=True)
     is_admin = db.Column(db.Boolean, default=False, nullable=False)

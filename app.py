@@ -253,7 +253,6 @@ def load_user(user_id):
 
 
 def is_valid_email(email):
-    # Простая проверка корректности email
     pattern = r"^[\w\.-]+@[\w\.-]+\.\w+$"
     return bool(re.match(pattern, email))
 
@@ -316,19 +315,15 @@ def index():
     max_price = request.args.get("max_price", "", type=str).strip()
     sort = request.args.get("sort", "id_asc", type=str).strip()
 
-    # Базовый запрос каталога
     query = Game.query
 
-    # Поиск по названию и разработчику
     if search:
         search_like = f"%{search}%"
         query = query.filter((Game.name.ilike(search_like)) | (Game.developer.ilike(search_like)))
 
-    # Фильтр по категории
     if category:
         query = query.filter(Game.category == category)
 
-    # Фильтр по минимальной цене
     if min_price:
         try:
             min_price_value = float(min_price)
@@ -336,7 +331,6 @@ def index():
         except ValueError:
             flash("Минимальная цена указана некорректно.", "warning")
 
-    # Фильтр по максимальной цене
     if max_price:
         try:
             max_price_value = float(max_price)
@@ -344,7 +338,6 @@ def index():
         except ValueError:
             flash("Максимальная цена указана некорректно.", "warning")
 
-    # Сортировка каталога
     sort_options = {
         "id_asc": Game.id.asc(),
         "id_desc": Game.id.desc(),
@@ -472,7 +465,6 @@ def login():
         user = User.query.filter_by(username=username).first()
 
         if user and check_password_hash(user.password, password):
-            # Запоминаем сессию пользователя, если отмечен чекбокс "Запомнить меня"
             login_user(user, remember=remember)
             flash("Welcome back!", "success")
             return redirect(url_for("index"))
@@ -674,7 +666,6 @@ def admin():
 @app.route("/admin/users/<int:user_id>")
 @admin_required
 def admin_user_profile(user_id):
-    # Профиль пользователя для администратора с купленными играми
     user = User.query.get_or_404(user_id)
     return render_template("admin_user_profile.html", user=user)
 
@@ -682,7 +673,6 @@ def admin_user_profile(user_id):
 @app.route("/admin/users/<int:user_id>/topup", methods=["POST"])
 @admin_required
 def admin_topup_user(user_id):
-    # Админ может пополнять баланс себе и любому пользователю
     user = User.query.get_or_404(user_id)
     amount = request.form.get("amount", "0").strip()
     try:

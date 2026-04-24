@@ -8,7 +8,6 @@ from models import Game, User, db
 
 
 def _generate_description(game_name, category, developer, year):
-    # Делаем расширенное описание 100-300 символов
     text = (
         f"{game_name} — популярная игра в жанре {category} от студии {developer}, "
         f"выпущенная в {year} году. В проекте сочетаются динамичный геймплей, "
@@ -20,7 +19,6 @@ def _generate_description(game_name, category, developer, year):
 
 
 def _get_popular_games_catalog():
-    # База популярных реальных игр (будет расширена до 120 позиций с разными изданиями)
     return [
         ("The Witcher 3: Wild Hunt", "RPG", "CD Projekt RED", 2015),
         ("Cyberpunk 2077", "RPG", "CD Projekt RED", 2020),
@@ -88,7 +86,6 @@ def _seed_games():
     for title, category, developer, year in base_games:
         for edition in editions:
             full_title = f"{title} ({edition})"
-            # Цены в рублях
             price = float(random.randint(399, 4999))
             description = _generate_description(full_title, category, developer, year)
             image_url = f"https://placehold.co/400x250?text={quote_plus(full_title)}"
@@ -104,7 +101,6 @@ def _seed_games():
                 )
             )
 
-    # На случай изменения набора: добиваем до 120+ записей
     while len(games) < 120:
         title, category, developer, year = random.choice(base_games)
         suffix = random.randint(1, 99)
@@ -127,7 +123,6 @@ def _seed_games():
 
 
 def _replace_catalog_if_needed():
-    # Если каталог старый или в нем нет новых популярных игр, пересоздаем его
     has_any_standard = Game.query.filter(Game.name.like("%(Standard Edition)%")).first() is not None
     has_new_game = Game.query.filter(Game.name.like("Portal 2 (Standard Edition)")).first() is not None
     if has_any_standard and has_new_game:
@@ -147,7 +142,6 @@ def _replace_catalog_if_needed():
 
 
 def init_db(app):
-    # Инициализация SQLAlchemy и первичное заполнение данных
     db.init_app(app)
     with app.app_context():
         db.create_all()

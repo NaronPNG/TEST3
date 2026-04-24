@@ -108,7 +108,6 @@ body {
     background-color: var(--app-page-link-disabled-bg);
 }
 
-/* Светлый и более цветной стиль поверх существующей разметки */
 .colorful-navbar {
     background: var(--app-navbar-bg);
 }
