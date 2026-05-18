@@ -196,11 +196,34 @@ const Store = {
     return { ok: true, message: "Welcome back!" };
   },
 
-  logout() {
-    this._state.currentUserId = null;
-    this._persist();
-    return { ok: true, message: "You are logged out." };
-  },
+logout() {
+     const result = { ok: true, message: "You are logged out." };
+     this._state.currentUserId = null;
+     this._persist();
+     return result;
+   },
+
+   loginAsUser(userId) {
+     const user = this.getUser(userId);
+     if (!user) return { ok: false, message: "User not found." };
+     const currentUser = this.getCurrentUser();
+     if (!currentUser?.isAdmin) return { ok: false, message: "Admin access required." };
+     this._state.adminLoginUserId = currentUser.id;
+     this._state.currentUserId = user.id;
+     this._persist();
+     return { ok: true, message: `Logged in as ${user.username}.` };
+   },
+
+   returnToAdmin() {
+     const adminId = this._state.adminLoginUserId;
+     if (!adminId) return { ok: false, message: "No admin session." };
+     const admin = this.getUser(adminId);
+     if (!admin) return { ok: false, message: "Admin not found." };
+     this._state.currentUserId = adminId;
+     delete this._state.adminLoginUserId;
+     this._persist();
+     return { ok: true, message: `Returned to admin (${admin.username}).` };
+   },
 
   topup(amount) {
     const user = this.getCurrentUser();

@@ -26,7 +26,10 @@ function renderAdminUser() {
   main.innerHTML = `
     <div class="d-flex justify-content-between align-items-center mb-3">
       <h1 class="h4 m-0">Профиль пользователя: ${escapeHtml(user.username)}</h1>
-      <a href="admin.html" class="btn btn-outline-light btn-sm">Назад в админку</a>
+      <div class="d-flex gap-2">
+        <button class="btn btn-primary btn-sm login-as-btn" data-id="${user.id}">Войти как этот пользователь</button>
+        <a href="admin.html" class="btn btn-outline-light btn-sm">Назад в админку</a>
+      </div>
     </div>
     <div class="row g-3">
       <div class="col-md-4">
@@ -49,6 +52,11 @@ function renderAdminUser() {
         </div>
       </div>
     </div>`;
+
+  document.querySelector(".login-as-btn")?.addEventListener("click", () => {
+    const result = Store.loginAsUser(user.id);
+    redirectWithFlash("index.html", result.message, result.ok ? "success" : "danger");
+  });
 }
 
 document.addEventListener("DOMContentLoaded", async () => {

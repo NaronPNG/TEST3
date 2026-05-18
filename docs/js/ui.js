@@ -49,6 +49,9 @@ function renderNavbar() {
       <li class="nav-item"><a class="nav-link" href="profile.html">${t("profile")}</a></li>`;
     if (user.isAdmin) {
       navItems += `<li class="nav-item"><a class="nav-link" href="admin.html">${t("admin_panel")}</a></li>`;
+      if (Store._state?.adminLoginUserId) {
+        navItems += `<li class="nav-item"><a class="nav-link" href="admin.html" id="return-to-admin-btn">Вернуться в админку</a></li>`;
+      }
     }
     authLinks = `
       <span class="badge text-bg-success align-self-center">${t("balance")}: ${formatPrice(user.balance)}</span>
@@ -93,6 +96,14 @@ function renderNavbar() {
     e.preventDefault();
     const result = Store.logout();
     redirectWithFlash("index.html", result.message, "info");
+  });
+
+  document.getElementById("return-to-admin-btn")?.addEventListener("click", (e) => {
+    e.preventDefault();
+    const result = Store.returnToAdmin();
+    if (result.ok) {
+      redirectWithFlash("admin.html", result.message, "success");
+    }
   });
 }
 
