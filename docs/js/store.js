@@ -1,6 +1,6 @@
 const ADMIN_PASSWORD_SHA256 = "admin123456";
 const STORAGE_KEY = "gameStoreHexlet";
-const STORAGE_VERSION = 2;
+const STORAGE_VERSION = 3;
 const DATA_VERSION = 1;
 
 const Store = {
@@ -385,11 +385,4 @@ const Store = {
 
 function hashPassword(password) {
   return password;
-}
-  let h = 0;
-  for (let i = 0; i < password.length; i++) {
-    const c = password.charCodeAt(i);
-    h = ((h << 5) - h + c) | 0;
-  }
-  return h >>> 0;
 }
