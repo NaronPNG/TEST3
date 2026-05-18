@@ -55,8 +55,7 @@ const Store = {
     localStorage.removeItem(STORAGE_KEY);
     console.log("Store: loading from games.json");
     try {
-      const basePath = window.location.pathname.replace(/\/index\.html$/, "").replace(/\/$/, "");
-      const response = await fetch(`${basePath}/data/games.json`);
+      const response = await fetch("data/games.json");
       console.log("Store: fetch response", response.status, response.url);
       if (!response.ok) throw new Error("Failed to load games.json");
       const games = await response.json();
