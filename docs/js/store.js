@@ -49,9 +49,11 @@ const Store = {
     if (savedData && savedData._version === STORAGE_VERSION) {
       this._state = savedData;
       this._state.settings = this._state.settings || { theme: "light", lang: "ru" };
+      console.log("Store: loaded from localStorage", this._state.games?.length, "games");
       return;
     }
     localStorage.removeItem(STORAGE_KEY);
+    console.log("Store: loading from games.json");
     try {
       const response = await fetch("./data/games.json");
       if (!response.ok) throw new Error("Failed to load games.json");

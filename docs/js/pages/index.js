@@ -126,5 +126,11 @@ function renderCatalog() {
 window.onLangChange = () => renderCatalog();
 
 document.addEventListener("DOMContentLoaded", async () => {
-  if (await initPage()) renderCatalog();
+  console.log("index.js: DOM loaded");
+  if (await initPage()) {
+    console.log("index.js: initPage ok, rendering");
+    renderCatalog();
+  } else {
+    console.error("index.js: initPage failed");
+  }
 });
