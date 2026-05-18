@@ -1,3 +1,26 @@
+const DEFAULT_GAMES = [
+  {
+    id: 1,
+    name: "The Witcher 3: Wild Hunt (Standard Edition)",
+    price: 1311.0,
+    description: "Epic RPG from CD Projekt RED with amazing storyline and open world.",
+    image_url: "static/images/games/046f75a44c354e8789eca4aa5e685062.jpg",
+    category: "RPG",
+    developer: "CD Projekt RED",
+    release_year: 2015
+  },
+  {
+    id: 2,
+    name: "Cyberpunk 2077 (Standard Edition)",
+    price: 2499.0,
+    description: "Futuristic RPG set in Night City.",
+    image_url: "static/images/games/15b82e60c2e048d2b21250bc8c67aa53.png",
+    category: "RPG",
+    developer: "CD Projekt RED",
+    release_year: 2020
+  }
+];
+
 const ADMIN_PASSWORD_SHA256 = "admin123456";
 const STORAGE_KEY = "gameStoreHexlet";
 const STORAGE_VERSION = 3;
@@ -30,7 +53,7 @@ const Store = {
     }
     localStorage.removeItem(STORAGE_KEY);
     try {
-      const response = await fetch("data/games.json");
+      const response = await fetch("./data/games.json");
       if (!response.ok) throw new Error("Failed to load games.json");
       const games = await response.json();
       this._state = {
@@ -61,7 +84,7 @@ const Store = {
       this._state = {
         _version: STORAGE_VERSION,
         version: DATA_VERSION,
-        games: [],
+        games: DEFAULT_GAMES,
         users: [
           {
             id: 1,
@@ -76,7 +99,7 @@ const Store = {
           },
         ],
         nextUserId: 2,
-        nextGameId: 1,
+        nextGameId: Math.max(0, ...DEFAULT_GAMES.map((g) => g.id)) + 1,
         currentUserId: null,
         settings: { theme: "light", lang: "ru" },
       };
