@@ -14,35 +14,54 @@ const Store = {
   async _load() {
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved) {
-      this._state = JSON.parse(saved);
-      this._state.settings = this._state.settings || { theme: "light", lang: "ru" };
-      return;
+      try {
+        this._state = JSON.parse(saved);
+        this._state.settings = this._state.settings || { theme: "light", lang: "ru" };
+      } catch (e) {
+        localStorage.removeItem(STORAGE_KEY);
+      }
     }
-    const response = await fetch("data/games.json");
-    const games = await response.json();
-    const adminHash = await hashPassword("admin123456");
-    this._state = {
-      version: DATA_VERSION,
-      games,
-      users: [
-        {
-          id: 1,
-          username: "admin",
-          email: "admin@gamestore.local",
-          passwordHash: adminHash,
-          avatarUrl: null,
-          isAdmin: true,
-          balance: 50000,
-          cart: [],
-          purchased: [],
-        },
-      ],
-      nextUserId: 2,
-      nextGameId: Math.max(0, ...games.map((g) => g.id)) + 1,
-      currentUserId: null,
-      settings: { theme: "light", lang: "ru" },
-    };
-    this._persist();
+    if (!this._state) {
+      try {
+        const response = await fetch("data/games.json");
+        if (!response.ok) throw new Error("Failed to load games.json");
+        const games = await response.json();
+        const adminHash = await hashPassword("admin123456");
+        this._state = {
+          version: DATA_VERSION,
+          games,
+          users: [
+            {
+              id: 1,
+              username: "admin",
+              email: "admin@gamestore.local",
+              passwordHash: adminHash,
+              avatarUrl: null,
+              isAdmin: true,
+              balance: 50000,
+              cart: [],
+              purchased: [],
+            },
+          ],
+          nextUserId: 2,
+          nextGameId: Math.max(0, ...games.map((g) => g.id)) + 1,
+          currentUserId: null,
+          settings: { theme: "light", lang: "ru" },
+        };
+        this._persist();
+      } catch (e) {
+        console.error("Store init error:", e);
+        this._state = {
+          version: DATA_VERSION,
+          games: [],
+          users: [],
+          nextUserId: 1,
+          nextGameId: 1,
+          currentUserId: null,
+          settings: { theme: "light", lang: "ru" },
+        };
+      }
+    }
   },
 
   _persist() {
@@ -358,9 +377,18 @@ const Store = {
 };
 
 async function hashPassword(password) {
-  const data = new TextEncoder().encode(password);
-  const hash = await crypto.subtle.digest("SHA-256", data);
-  return Array.from(new Uint8Array(hash))
-    .map((b) => b.toString(16).padStart(2, "0"))
-    .join("");
+  if (typeof crypto !== "undefined" && crypto.subtle && crypto.subtle.digest) {
+    const data = new TextEncoder().encode(password);
+    const hash = await crypto.subtle.digest("SHA-256", data);
+    return Array.from(new Uint8Array(hash))
+      .map((b) => b.toString(16).padStart(2, "0"))
+      .join("");
+  }
+  let hash = 0;
+  for (let i = 0; i < password.length; i++) {
+    const char = password.charCodeAt(i);
+    hash = ((hash << 5) - hash) + char;
+    hash = hash & hash;
+  }
+  return Math.abs(hash).toString(16).padStart(8, "0");
 }
