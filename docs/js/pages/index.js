@@ -126,17 +126,5 @@ function renderCatalog() {
 window.onLangChange = () => renderCatalog();
 
 document.addEventListener("DOMContentLoaded", async () => {
-  console.log("index.js: DOM loaded");
-  try {
-    const ok = await initPage();
-    console.log("index.js: initPage result:", ok);
-    if (ok) {
-      renderCatalog();
-    } else {
-      document.getElementById("main").innerHTML = '<p class="text-danger">Ошибка инициализации</p>';
-    }
-  } catch (e) {
-    console.error("index.js error:", e);
-    document.getElementById("main").innerHTML = '<p class="text-danger">Ошибка: ' + e.message + '</p>';
-  }
+  if (await initPage()) renderCatalog();
 });

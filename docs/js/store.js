@@ -49,17 +49,13 @@ const Store = {
     if (savedData && savedData._version === STORAGE_VERSION) {
       this._state = savedData;
       this._state.settings = this._state.settings || { theme: "light", lang: "ru" };
-      console.log("Store: loaded from localStorage", this._state.games?.length, "games");
       return;
     }
     localStorage.removeItem(STORAGE_KEY);
-    console.log("Store: loading from games.json");
     try {
       const response = await fetch("data/games.json");
-      console.log("Store: fetch response", response.status, response.url);
       if (!response.ok) throw new Error("Failed to load games.json");
       const games = await response.json();
-      console.log("Store: loaded", games.length, "games");
       this._state = {
         _version: STORAGE_VERSION,
         version: DATA_VERSION,
@@ -84,7 +80,6 @@ const Store = {
       };
       this._persist();
     } catch (e) {
-      console.error("Store init error:", e);
       this._state = {
         _version: STORAGE_VERSION,
         version: DATA_VERSION,

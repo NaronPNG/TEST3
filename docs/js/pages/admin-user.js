@@ -53,10 +53,12 @@ function renderAdminUser() {
       </div>
     </div>`;
 
-  document.querySelector(".login-as-btn")?.addEventListener("click", () => {
+  function handleLoginAs() {
     const result = Store.loginAsUser(user.id);
     redirectWithFlash("index.html", result.message, result.ok ? "success" : "danger");
-  });
+  }
+
+  document.querySelector(".login-as-btn")?.addEventListener("click", handleLoginAs);
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
