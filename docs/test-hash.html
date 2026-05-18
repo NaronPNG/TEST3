@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head><title>Hash Test</title></head>
+<body>
+<h1>Hash Test</h1>
+<pre id="output"></pre>
+<script>
+async function hashPassword(password) {
+  const data = new TextEncoder().encode(password);
+  const hash = await crypto.subtle.digest("SHA-256", data);
+  return Array.from(new Uint8Array(hash))
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
+}
+
+(async () => {
+  const hash = await hashPassword("admin123456");
+  document.getElementById("output").textContent = "Hash: " + hash + "\nExpected: ac0e7d037817094e9e0b4441f9bae3209d67b02fa484917065f71b16109a1a78\nMatch: " + (hash === "ac0e7d037817094e9e0b4441f9bae3209d67b02fa484917065f71b16109a1a78");
+})();
+</script>
+</body>
+</html>
