@@ -29,7 +29,6 @@ const Store = {
       return;
     }
     localStorage.removeItem(STORAGE_KEY);
-    }
     try {
       const response = await fetch("data/games.json");
       if (!response.ok) throw new Error("Failed to load games.json");
