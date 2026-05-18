@@ -1,0 +1,1652 @@
+[
+  {
+    "id": 1,
+    "name": "The Witcher 3: Wild Hunt (Standard Edition)",
+    "price": 1311.0,
+    "description": "The Witcher 3: Wild Hunt (Standard Edition) — популярная игра в жанре RPG от студии CD Projekt RED, выпущенная в 2015 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичк",
+    "image_url": "static/images/games/046f75a44c354e8789eca4aa5e685062.jpg",
+    "category": "RPG",
+    "developer": "CD Projekt RED",
+    "release_year": 2015
+  },
+  {
+    "id": 2,
+    "name": "The Witcher 3: Wild Hunt (Deluxe Edition)",
+    "price": 603.0,
+    "description": "The Witcher 3: Wild Hunt (Deluxe Edition) — популярная игра в жанре RPG от студии CD Projekt RED, выпущенная в 2015 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам",
+    "image_url": "static/images/games/046f75a44c354e8789eca4aa5e685062.jpg",
+    "category": "RPG",
+    "developer": "CD Projekt RED",
+    "release_year": 2015
+  },
+  {
+    "id": 3,
+    "name": "The Witcher 3: Wild Hunt (Ultimate Edition)",
+    "price": 2652.0,
+    "description": "The Witcher 3: Wild Hunt (Ultimate Edition) — популярная игра в жанре RPG от студии CD Projekt RED, выпущенная в 2015 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичк",
+    "image_url": "static/images/games/046f75a44c354e8789eca4aa5e685062.jpg",
+    "category": "RPG",
+    "developer": "CD Projekt RED",
+    "release_year": 2015
+  },
+  {
+    "id": 4,
+    "name": "Cyberpunk 2077 (Standard Edition)",
+    "price": 2405.0,
+    "description": "Cyberpunk 2077 (Standard Edition) — популярная игра в жанре RPG от студии CD Projekt RED, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и",
+    "image_url": "static/images/games/39ed9565ea5c4c5bb0b54948d6c62c74.jpg",
+    "category": "RPG",
+    "developer": "CD Projekt RED",
+    "release_year": 2020
+  },
+  {
+    "id": 5,
+    "name": "Cyberpunk 2077 (Deluxe Edition)",
+    "price": 2227.0,
+    "description": "Cyberpunk 2077 (Deluxe Edition) — популярная игра в жанре RPG от студии CD Projekt RED, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и оп",
+    "image_url": "static/images/games/39ed9565ea5c4c5bb0b54948d6c62c74.jpg",
+    "category": "RPG",
+    "developer": "CD Projekt RED",
+    "release_year": 2020
+  },
+  {
+    "id": 6,
+    "name": "Cyberpunk 2077 (Ultimate Edition)",
+    "price": 1542.0,
+    "description": "Cyberpunk 2077 (Ultimate Edition) — популярная игра в жанре RPG от студии CD Projekt RED, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и ",
+    "image_url": "static/images/games/39ed9565ea5c4c5bb0b54948d6c62c74.jpg",
+    "category": "RPG",
+    "developer": "CD Projekt RED",
+    "release_year": 2020
+  },
+  {
+    "id": 7,
+    "name": "Elden Ring (Standard Edition)",
+    "price": 1238.0,
+    "description": "Elden Ring (Standard Edition) — популярная игра в жанре RPG от студии FromSoftware, выпущенная в 2022 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытны",
+    "image_url": "static/images/games/a8537fc242e54c12a35a292229cc666a.jpg",
+    "category": "RPG",
+    "developer": "FromSoftware",
+    "release_year": 2022
+  },
+  {
+    "id": 8,
+    "name": "Elden Ring (Deluxe Edition)",
+    "price": 4866.0,
+    "description": "Elden Ring (Deluxe Edition) — популярная игра в жанре RPG от студии FromSoftware, выпущенная в 2022 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным ",
+    "image_url": "static/images/games/a8537fc242e54c12a35a292229cc666a.jpg",
+    "category": "RPG",
+    "developer": "FromSoftware",
+    "release_year": 2022
+  },
+  {
+    "id": 9,
+    "name": "Elden Ring (Ultimate Edition)",
+    "price": 1111.0,
+    "description": "Elden Ring (Ultimate Edition) — популярная игра в жанре RPG от студии FromSoftware, выпущенная в 2022 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытны",
+    "image_url": "static/images/games/a8537fc242e54c12a35a292229cc666a.jpg",
+    "category": "RPG",
+    "developer": "FromSoftware",
+    "release_year": 2022
+  },
+  {
+    "id": 10,
+    "name": "Baldur's Gate 3 (Standard Edition)",
+    "price": 3855.0,
+    "description": "Baldur's Gate 3 (Standard Edition) — популярная игра в жанре RPG от студии Larian Studios, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и",
+    "image_url": "static/images/games/535b78e969e04ef484663880f239df54.jpg",
+    "category": "RPG",
+    "developer": "Larian Studios",
+    "release_year": 2023
+  },
+  {
+    "id": 11,
+    "name": "Baldur's Gate 3 (Deluxe Edition)",
+    "price": 659.0,
+    "description": "Baldur's Gate 3 (Deluxe Edition) — популярная игра в жанре RPG от студии Larian Studios, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и о",
+    "image_url": "static/images/games/535b78e969e04ef484663880f239df54.jpg",
+    "category": "RPG",
+    "developer": "Larian Studios",
+    "release_year": 2023
+  },
+  {
+    "id": 12,
+    "name": "Baldur's Gate 3 (Ultimate Edition)",
+    "price": 643.0,
+    "description": "Baldur's Gate 3 (Ultimate Edition) — популярная игра в жанре RPG от студии Larian Studios, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и",
+    "image_url": "static/images/games/535b78e969e04ef484663880f239df54.jpg",
+    "category": "RPG",
+    "developer": "Larian Studios",
+    "release_year": 2023
+  },
+  {
+    "id": 13,
+    "name": "Skyrim (Standard Edition)",
+    "price": 1166.0,
+    "description": "Skyrim (Standard Edition) — популярная игра в жанре RPG от студии Bethesda Game Studios, выпущенная в 2011 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и о",
+    "image_url": "static/images/games/58bf5d14f3204118a6133999b45bcc99.webp",
+    "category": "RPG",
+    "developer": "Bethesda Game Studios",
+    "release_year": 2011
+  },
+  {
+    "id": 14,
+    "name": "Skyrim (Deluxe Edition)",
+    "price": 2190.0,
+    "description": "Skyrim (Deluxe Edition) — популярная игра в жанре RPG от студии Bethesda Game Studios, выпущенная в 2011 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опы",
+    "image_url": "static/images/games/58bf5d14f3204118a6133999b45bcc99.webp",
+    "category": "RPG",
+    "developer": "Bethesda Game Studios",
+    "release_year": 2011
+  },
+  {
+    "id": 15,
+    "name": "Skyrim (Ultimate Edition)",
+    "price": 2304.0,
+    "description": "Skyrim (Ultimate Edition) — популярная игра в жанре RPG от студии Bethesda Game Studios, выпущенная в 2011 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и о",
+    "image_url": "static/images/games/58bf5d14f3204118a6133999b45bcc99.webp",
+    "category": "RPG",
+    "developer": "Bethesda Game Studios",
+    "release_year": 2011
+  },
+  {
+    "id": 16,
+    "name": "Dark Souls III (Standard Edition)",
+    "price": 4538.0,
+    "description": "Dark Souls III (Standard Edition) — популярная игра в жанре RPG от студии FromSoftware, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и оп",
+    "image_url": "static/images/games/2db99034673b4c809d9fd97023252ba3.jpg",
+    "category": "RPG",
+    "developer": "FromSoftware",
+    "release_year": 2016
+  },
+  {
+    "id": 17,
+    "name": "Dark Souls III (Deluxe Edition)",
+    "price": 616.0,
+    "description": "Dark Souls III (Deluxe Edition) — популярная игра в жанре RPG от студии FromSoftware, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опыт",
+    "image_url": "static/images/games/2db99034673b4c809d9fd97023252ba3.jpg",
+    "category": "RPG",
+    "developer": "FromSoftware",
+    "release_year": 2016
+  },
+  {
+    "id": 18,
+    "name": "Dark Souls III (Ultimate Edition)",
+    "price": 4996.0,
+    "description": "Dark Souls III (Ultimate Edition) — популярная игра в жанре RPG от студии FromSoftware, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и оп",
+    "image_url": "static/images/games/2db99034673b4c809d9fd97023252ba3.jpg",
+    "category": "RPG",
+    "developer": "FromSoftware",
+    "release_year": 2016
+  },
+  {
+    "id": 19,
+    "name": "Divinity: Original Sin 2 (Standard Edition)",
+    "price": 2027.0,
+    "description": "Divinity: Original Sin 2 (Standard Edition) — популярная игра в жанре RPG от студии Larian Studios, выпущенная в 2017 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичк",
+    "image_url": "static/images/games/3ace85eaea1c41b5ac1b9ec9d2e93511.webp",
+    "category": "RPG",
+    "developer": "Larian Studios",
+    "release_year": 2017
+  },
+  {
+    "id": 20,
+    "name": "Divinity: Original Sin 2 (Deluxe Edition)",
+    "price": 4863.0,
+    "description": "Divinity: Original Sin 2 (Deluxe Edition) — популярная игра в жанре RPG от студии Larian Studios, выпущенная в 2017 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам",
+    "image_url": "static/images/games/3ace85eaea1c41b5ac1b9ec9d2e93511.webp",
+    "category": "RPG",
+    "developer": "Larian Studios",
+    "release_year": 2017
+  },
+  {
+    "id": 21,
+    "name": "Divinity: Original Sin 2 (Ultimate Edition)",
+    "price": 3835.0,
+    "description": "Divinity: Original Sin 2 (Ultimate Edition) — популярная игра в жанре RPG от студии Larian Studios, выпущенная в 2017 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичк",
+    "image_url": "static/images/games/3ace85eaea1c41b5ac1b9ec9d2e93511.webp",
+    "category": "RPG",
+    "developer": "Larian Studios",
+    "release_year": 2017
+  },
+  {
+    "id": 22,
+    "name": "Diablo IV (Standard Edition)",
+    "price": 2204.0,
+    "description": "Diablo IV (Standard Edition) — популярная игра в жанре RPG от студии Blizzard Entertainment, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так",
+    "image_url": "static/images/games/9c44d276c9ca43a0a8721c69048a0364.webp",
+    "category": "RPG",
+    "developer": "Blizzard Entertainment",
+    "release_year": 2023
+  },
+  {
+    "id": 23,
+    "name": "Diablo IV (Deluxe Edition)",
+    "price": 4078.0,
+    "description": "Diablo IV (Deluxe Edition) — популярная игра в жанре RPG от студии Blizzard Entertainment, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и",
+    "image_url": "static/images/games/9c44d276c9ca43a0a8721c69048a0364.webp",
+    "category": "RPG",
+    "developer": "Blizzard Entertainment",
+    "release_year": 2023
+  },
+  {
+    "id": 24,
+    "name": "Diablo IV (Ultimate Edition)",
+    "price": 2677.0,
+    "description": "Diablo IV (Ultimate Edition) — популярная игра в жанре RPG от студии Blizzard Entertainment, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так",
+    "image_url": "static/images/games/9c44d276c9ca43a0a8721c69048a0364.webp",
+    "category": "RPG",
+    "developer": "Blizzard Entertainment",
+    "release_year": 2023
+  },
+  {
+    "id": 25,
+    "name": "Red Dead Redemption 2 (Standard Edition)",
+    "price": 452.0,
+    "description": "Red Dead Redemption 2 (Standard Edition) — популярная игра в жанре Action от студии Rockstar Games, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичк",
+    "image_url": "static/images/games/2c7ce7446dca463a9b4abb224bbafa64.webp",
+    "category": "Action",
+    "developer": "Rockstar Games",
+    "release_year": 2018
+  },
+  {
+    "id": 26,
+    "name": "Red Dead Redemption 2 (Deluxe Edition)",
+    "price": 1706.0,
+    "description": "Red Dead Redemption 2 (Deluxe Edition) — популярная игра в жанре Action от студии Rockstar Games, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам",
+    "image_url": "static/images/games/2c7ce7446dca463a9b4abb224bbafa64.webp",
+    "category": "Action",
+    "developer": "Rockstar Games",
+    "release_year": 2018
+  },
+  {
+    "id": 27,
+    "name": "Red Dead Redemption 2 (Ultimate Edition)",
+    "price": 3861.0,
+    "description": "Red Dead Redemption 2 (Ultimate Edition) — популярная игра в жанре Action от студии Rockstar Games, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичк",
+    "image_url": "static/images/games/2c7ce7446dca463a9b4abb224bbafa64.webp",
+    "category": "Action",
+    "developer": "Rockstar Games",
+    "release_year": 2018
+  },
+  {
+    "id": 28,
+    "name": "Grand Theft Auto V (Standard Edition)",
+    "price": 3186.0,
+    "description": "Grand Theft Auto V (Standard Edition) — популярная игра в жанре Action от студии Rockstar Games, выпущенная в 2013 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам,",
+    "image_url": "static/images/games/a97d67c0ce0748aabd95a493e0fec0a4.webp",
+    "category": "Action",
+    "developer": "Rockstar Games",
+    "release_year": 2013
+  },
+  {
+    "id": 29,
+    "name": "Grand Theft Auto V (Deluxe Edition)",
+    "price": 2675.0,
+    "description": "Grand Theft Auto V (Deluxe Edition) — популярная игра в жанре Action от студии Rockstar Games, выпущенная в 2013 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, т",
+    "image_url": "static/images/games/a97d67c0ce0748aabd95a493e0fec0a4.webp",
+    "category": "Action",
+    "developer": "Rockstar Games",
+    "release_year": 2013
+  },
+  {
+    "id": 30,
+    "name": "Grand Theft Auto V (Ultimate Edition)",
+    "price": 1672.0,
+    "description": "Grand Theft Auto V (Ultimate Edition) — популярная игра в жанре Action от студии Rockstar Games, выпущенная в 2013 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам,",
+    "image_url": "static/images/games/a97d67c0ce0748aabd95a493e0fec0a4.webp",
+    "category": "Action",
+    "developer": "Rockstar Games",
+    "release_year": 2013
+  },
+  {
+    "id": 31,
+    "name": "DOOM Eternal (Standard Edition)",
+    "price": 2162.0,
+    "description": "DOOM Eternal (Standard Edition) — популярная игра в жанре Action от студии id Software, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и оп",
+    "image_url": "static/images/games/8d6502b17bbd424895834c60ab31f90c.webp",
+    "category": "Action",
+    "developer": "id Software",
+    "release_year": 2020
+  },
+  {
+    "id": 32,
+    "name": "DOOM Eternal (Deluxe Edition)",
+    "price": 3156.0,
+    "description": "DOOM Eternal (Deluxe Edition) — популярная игра в жанре Action от студии id Software, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опыт",
+    "image_url": "static/images/games/8d6502b17bbd424895834c60ab31f90c.webp",
+    "category": "Action",
+    "developer": "id Software",
+    "release_year": 2020
+  },
+  {
+    "id": 33,
+    "name": "DOOM Eternal (Ultimate Edition)",
+    "price": 1236.0,
+    "description": "DOOM Eternal (Ultimate Edition) — популярная игра в жанре Action от студии id Software, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и оп",
+    "image_url": "static/images/games/8d6502b17bbd424895834c60ab31f90c.webp",
+    "category": "Action",
+    "developer": "id Software",
+    "release_year": 2020
+  },
+  {
+    "id": 34,
+    "name": "Sekiro: Shadows Die Twice (Standard Edition)",
+    "price": 1158.0,
+    "description": "Sekiro: Shadows Die Twice (Standard Edition) — популярная игра в жанре Action от студии FromSoftware, выпущенная в 2019 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нови",
+    "image_url": "static/images/games/c0beb66c3fd444fa954d9a6ae8cd6482.webp",
+    "category": "Action",
+    "developer": "FromSoftware",
+    "release_year": 2019
+  },
+  {
+    "id": 35,
+    "name": "Sekiro: Shadows Die Twice (Deluxe Edition)",
+    "price": 3511.0,
+    "description": "Sekiro: Shadows Die Twice (Deluxe Edition) — популярная игра в жанре Action от студии FromSoftware, выпущенная в 2019 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичк",
+    "image_url": "static/images/games/c0beb66c3fd444fa954d9a6ae8cd6482.webp",
+    "category": "Action",
+    "developer": "FromSoftware",
+    "release_year": 2019
+  },
+  {
+    "id": 36,
+    "name": "Sekiro: Shadows Die Twice (Ultimate Edition)",
+    "price": 1191.0,
+    "description": "Sekiro: Shadows Die Twice (Ultimate Edition) — популярная игра в жанре Action от студии FromSoftware, выпущенная в 2019 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нови",
+    "image_url": "static/images/games/c0beb66c3fd444fa954d9a6ae8cd6482.webp",
+    "category": "Action",
+    "developer": "FromSoftware",
+    "release_year": 2019
+  },
+  {
+    "id": 37,
+    "name": "Hades (Standard Edition)",
+    "price": 3339.0,
+    "description": "Hades (Standard Edition) — популярная игра в жанре Action от студии Supergiant Games, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опыт",
+    "image_url": "static/images/games/f7bae91c47454720a03d0785e9c2a64f.webp",
+    "category": "Action",
+    "developer": "Supergiant Games",
+    "release_year": 2020
+  },
+  {
+    "id": 38,
+    "name": "Hades (Deluxe Edition)",
+    "price": 3216.0,
+    "description": "Hades (Deluxe Edition) — популярная игра в жанре Action от студии Supergiant Games, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытны",
+    "image_url": "static/images/games/f7bae91c47454720a03d0785e9c2a64f.webp",
+    "category": "Action",
+    "developer": "Supergiant Games",
+    "release_year": 2020
+  },
+  {
+    "id": 39,
+    "name": "Hades (Ultimate Edition)",
+    "price": 2565.0,
+    "description": "Hades (Ultimate Edition) — популярная игра в жанре Action от студии Supergiant Games, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опыт",
+    "image_url": "static/images/games/f7bae91c47454720a03d0785e9c2a64f.webp",
+    "category": "Action",
+    "developer": "Supergiant Games",
+    "release_year": 2020
+  },
+  {
+    "id": 40,
+    "name": "God of War (Standard Edition)",
+    "price": 754.0,
+    "description": "God of War (Standard Edition) — популярная игра в жанре Action от студии Santa Monica Studio, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, та",
+    "image_url": "static/images/games/4209f645ad50461fb1fdf063d6730e8e.webp",
+    "category": "Action",
+    "developer": "Santa Monica Studio",
+    "release_year": 2018
+  },
+  {
+    "id": 41,
+    "name": "God of War (Deluxe Edition)",
+    "price": 4162.0,
+    "description": "God of War (Deluxe Edition) — популярная игра в жанре Action от студии Santa Monica Studio, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так ",
+    "image_url": "static/images/games/4209f645ad50461fb1fdf063d6730e8e.webp",
+    "category": "Action",
+    "developer": "Santa Monica Studio",
+    "release_year": 2018
+  },
+  {
+    "id": 42,
+    "name": "God of War (Ultimate Edition)",
+    "price": 4791.0,
+    "description": "God of War (Ultimate Edition) — популярная игра в жанре Action от студии Santa Monica Studio, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, та",
+    "image_url": "static/images/games/4209f645ad50461fb1fdf063d6730e8e.webp",
+    "category": "Action",
+    "developer": "Santa Monica Studio",
+    "release_year": 2018
+  },
+  {
+    "id": 43,
+    "name": "Ghost of Tsushima (Standard Edition)",
+    "price": 1421.0,
+    "description": "Ghost of Tsushima (Standard Edition) — популярная игра в жанре Action от студии Sucker Punch Productions, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как",
+    "image_url": "static/images/games/93ec47848dba4f97adc1602c99122863.webp",
+    "category": "Action",
+    "developer": "Sucker Punch Productions",
+    "release_year": 2020
+  },
+  {
+    "id": 44,
+    "name": "Ghost of Tsushima (Deluxe Edition)",
+    "price": 3499.0,
+    "description": "Ghost of Tsushima (Deluxe Edition) — популярная игра в жанре Action от студии Sucker Punch Productions, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как но",
+    "image_url": "static/images/games/93ec47848dba4f97adc1602c99122863.webp",
+    "category": "Action",
+    "developer": "Sucker Punch Productions",
+    "release_year": 2020
+  },
+  {
+    "id": 45,
+    "name": "Ghost of Tsushima (Ultimate Edition)",
+    "price": 1044.0,
+    "description": "Ghost of Tsushima (Ultimate Edition) — популярная игра в жанре Action от студии Sucker Punch Productions, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как ",
+    "image_url": "static/images/games/93ec47848dba4f97adc1602c99122863.webp",
+    "category": "Action",
+    "developer": "Sucker Punch Productions",
+    "release_year": 2020
+  },
+  {
+    "id": 46,
+    "name": "Helldivers 2 (Standard Edition)",
+    "price": 4921.0,
+    "description": "Helldivers 2 (Standard Edition) — популярная игра в жанре Action от студии Arrowhead Game Studios, выпущенная в 2024 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичка",
+    "image_url": "static/images/games/5945d07c9365492f9612f80f790f2774.webp",
+    "category": "Action",
+    "developer": "Arrowhead Game Studios",
+    "release_year": 2024
+  },
+  {
+    "id": 47,
+    "name": "Helldivers 2 (Deluxe Edition)",
+    "price": 2800.0,
+    "description": "Helldivers 2 (Deluxe Edition) — популярная игра в жанре Action от студии Arrowhead Game Studios, выпущенная в 2024 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам,",
+    "image_url": "static/images/games/5945d07c9365492f9612f80f790f2774.webp",
+    "category": "Action",
+    "developer": "Arrowhead Game Studios",
+    "release_year": 2024
+  },
+  {
+    "id": 48,
+    "name": "Helldivers 2 (Ultimate Edition)",
+    "price": 3361.0,
+    "description": "Helldivers 2 (Ultimate Edition) — популярная игра в жанре Action от студии Arrowhead Game Studios, выпущенная в 2024 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичка",
+    "image_url": "static/images/games/5945d07c9365492f9612f80f790f2774.webp",
+    "category": "Action",
+    "developer": "Arrowhead Game Studios",
+    "release_year": 2024
+  },
+  {
+    "id": 49,
+    "name": "Civilization VI (Standard Edition)",
+    "price": 1974.0,
+    "description": "Civilization VI (Standard Edition) — популярная игра в жанре Strategy от студии Firaxis Games, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, т",
+    "image_url": "static/images/games/efed44be0d1a43db884da1aba46d0e4e.webp",
+    "category": "Strategy",
+    "developer": "Firaxis Games",
+    "release_year": 2016
+  },
+  {
+    "id": 50,
+    "name": "Civilization VI (Deluxe Edition)",
+    "price": 968.0,
+    "description": "Civilization VI (Deluxe Edition) — популярная игра в жанре Strategy от студии Firaxis Games, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так",
+    "image_url": "static/images/games/efed44be0d1a43db884da1aba46d0e4e.webp",
+    "category": "Strategy",
+    "developer": "Firaxis Games",
+    "release_year": 2016
+  },
+  {
+    "id": 51,
+    "name": "Civilization VI (Ultimate Edition)",
+    "price": 774.0,
+    "description": "Civilization VI (Ultimate Edition) — популярная игра в жанре Strategy от студии Firaxis Games, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, т",
+    "image_url": "static/images/games/efed44be0d1a43db884da1aba46d0e4e.webp",
+    "category": "Strategy",
+    "developer": "Firaxis Games",
+    "release_year": 2016
+  },
+  {
+    "id": 52,
+    "name": "Total War: WARHAMMER III (Standard Edition)",
+    "price": 2265.0,
+    "description": "Total War: WARHAMMER III (Standard Edition) — популярная игра в жанре Strategy от студии Creative Assembly, выпущенная в 2022 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет ка",
+    "image_url": "static/images/games/3fa752bb5a1247f0a3df2b85d30063bd.jpg",
+    "category": "Strategy",
+    "developer": "Creative Assembly",
+    "release_year": 2022
+  },
+  {
+    "id": 53,
+    "name": "Total War: WARHAMMER III (Deluxe Edition)",
+    "price": 2769.0,
+    "description": "Total War: WARHAMMER III (Deluxe Edition) — популярная игра в жанре Strategy от студии Creative Assembly, выпущенная в 2022 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как ",
+    "image_url": "static/images/games/3fa752bb5a1247f0a3df2b85d30063bd.jpg",
+    "category": "Strategy",
+    "developer": "Creative Assembly",
+    "release_year": 2022
+  },
+  {
+    "id": 54,
+    "name": "Total War: WARHAMMER III (Ultimate Edition)",
+    "price": 1052.0,
+    "description": "Total War: WARHAMMER III (Ultimate Edition) — популярная игра в жанре Strategy от студии Creative Assembly, выпущенная в 2022 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет ка",
+    "image_url": "static/images/games/3fa752bb5a1247f0a3df2b85d30063bd.jpg",
+    "category": "Strategy",
+    "developer": "Creative Assembly",
+    "release_year": 2022
+  },
+  {
+    "id": 55,
+    "name": "Age of Empires IV (Standard Edition)",
+    "price": 2306.0,
+    "description": "Age of Empires IV (Standard Edition) — популярная игра в жанре Strategy от студии Relic Entertainment, выпущенная в 2021 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нов",
+    "image_url": "static/images/games/7f9059432895401186f739607523b160.webp",
+    "category": "Strategy",
+    "developer": "Relic Entertainment",
+    "release_year": 2021
+  },
+  {
+    "id": 56,
+    "name": "Age of Empires IV (Deluxe Edition)",
+    "price": 1226.0,
+    "description": "Age of Empires IV (Deluxe Edition) — популярная игра в жанре Strategy от студии Relic Entertainment, выпущенная в 2021 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нович",
+    "image_url": "static/images/games/7f9059432895401186f739607523b160.webp",
+    "category": "Strategy",
+    "developer": "Relic Entertainment",
+    "release_year": 2021
+  },
+  {
+    "id": 57,
+    "name": "Age of Empires IV (Ultimate Edition)",
+    "price": 3512.0,
+    "description": "Age of Empires IV (Ultimate Edition) — популярная игра в жанре Strategy от студии Relic Entertainment, выпущенная в 2021 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нов",
+    "image_url": "static/images/games/7f9059432895401186f739607523b160.webp",
+    "category": "Strategy",
+    "developer": "Relic Entertainment",
+    "release_year": 2021
+  },
+  {
+    "id": 58,
+    "name": "Crusader Kings III (Standard Edition)",
+    "price": 2676.0,
+    "description": "Crusader Kings III (Standard Edition) — популярная игра в жанре Strategy от студии Paradox Development Studio, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет",
+    "image_url": "static/images/games/aa69e4e0996f429083f24efdec8837cb.webp",
+    "category": "Strategy",
+    "developer": "Paradox Development Studio",
+    "release_year": 2020
+  },
+  {
+    "id": 59,
+    "name": "Crusader Kings III (Deluxe Edition)",
+    "price": 4113.0,
+    "description": "Crusader Kings III (Deluxe Edition) — популярная игра в жанре Strategy от студии Paradox Development Studio, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет к",
+    "image_url": "static/images/games/aa69e4e0996f429083f24efdec8837cb.webp",
+    "category": "Strategy",
+    "developer": "Paradox Development Studio",
+    "release_year": 2020
+  },
+  {
+    "id": 60,
+    "name": "Crusader Kings III (Ultimate Edition)",
+    "price": 3387.0,
+    "description": "Crusader Kings III (Ultimate Edition) — популярная игра в жанре Strategy от студии Paradox Development Studio, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет",
+    "image_url": "static/images/games/aa69e4e0996f429083f24efdec8837cb.webp",
+    "category": "Strategy",
+    "developer": "Paradox Development Studio",
+    "release_year": 2020
+  },
+  {
+    "id": 61,
+    "name": "XCOM 2 (Standard Edition)",
+    "price": 1731.0,
+    "description": "XCOM 2 (Standard Edition) — популярная игра в жанре Strategy от студии Firaxis Games, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опыт",
+    "image_url": "static/images/games/e20122e1eb7d46d49bad9391f0fb9368.webp",
+    "category": "Strategy",
+    "developer": "Firaxis Games",
+    "release_year": 2016
+  },
+  {
+    "id": 62,
+    "name": "XCOM 2 (Deluxe Edition)",
+    "price": 3431.0,
+    "description": "XCOM 2 (Deluxe Edition) — популярная игра в жанре Strategy от студии Firaxis Games, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытны",
+    "image_url": "static/images/games/e20122e1eb7d46d49bad9391f0fb9368.webp",
+    "category": "Strategy",
+    "developer": "Firaxis Games",
+    "release_year": 2016
+  },
+  {
+    "id": 63,
+    "name": "XCOM 2 (Ultimate Edition)",
+    "price": 3309.0,
+    "description": "XCOM 2 (Ultimate Edition) — популярная игра в жанре Strategy от студии Firaxis Games, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опыт",
+    "image_url": "static/images/games/e20122e1eb7d46d49bad9391f0fb9368.webp",
+    "category": "Strategy",
+    "developer": "Firaxis Games",
+    "release_year": 2016
+  },
+  {
+    "id": 64,
+    "name": "Stellaris (Standard Edition)",
+    "price": 2115.0,
+    "description": "Stellaris (Standard Edition) — популярная игра в жанре Strategy от студии Paradox Development Studio, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нови",
+    "image_url": "static/images/games/ad2386a3d2094ee5905a687293db9ee3.webp",
+    "category": "Strategy",
+    "developer": "Paradox Development Studio",
+    "release_year": 2016
+  },
+  {
+    "id": 65,
+    "name": "Stellaris (Deluxe Edition)",
+    "price": 2586.0,
+    "description": "Stellaris (Deluxe Edition) — популярная игра в жанре Strategy от студии Paradox Development Studio, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичк",
+    "image_url": "static/images/games/ad2386a3d2094ee5905a687293db9ee3.webp",
+    "category": "Strategy",
+    "developer": "Paradox Development Studio",
+    "release_year": 2016
+  },
+  {
+    "id": 66,
+    "name": "Stellaris (Ultimate Edition)",
+    "price": 983.0,
+    "description": "Stellaris (Ultimate Edition) — популярная игра в жанре Strategy от студии Paradox Development Studio, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нови",
+    "image_url": "static/images/games/ad2386a3d2094ee5905a687293db9ee3.webp",
+    "category": "Strategy",
+    "developer": "Paradox Development Studio",
+    "release_year": 2016
+  },
+  {
+    "id": 67,
+    "name": "Hearts of Iron IV (Standard Edition)",
+    "price": 1800.0,
+    "description": "Hearts of Iron IV (Standard Edition) — популярная игра в жанре Strategy от студии Paradox Development Studio, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет",
+    "image_url": "static/images/games/1854b01a4df24871bb485aa790648d33.webp",
+    "category": "Strategy",
+    "developer": "Paradox Development Studio",
+    "release_year": 2016
+  },
+  {
+    "id": 68,
+    "name": "Hearts of Iron IV (Deluxe Edition)",
+    "price": 4774.0,
+    "description": "Hearts of Iron IV (Deluxe Edition) — популярная игра в жанре Strategy от студии Paradox Development Studio, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет ка",
+    "image_url": "static/images/games/1854b01a4df24871bb485aa790648d33.webp",
+    "category": "Strategy",
+    "developer": "Paradox Development Studio",
+    "release_year": 2016
+  },
+  {
+    "id": 69,
+    "name": "Hearts of Iron IV (Ultimate Edition)",
+    "price": 2404.0,
+    "description": "Hearts of Iron IV (Ultimate Edition) — популярная игра в жанре Strategy от студии Paradox Development Studio, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет ",
+    "image_url": "static/images/games/1854b01a4df24871bb485aa790648d33.webp",
+    "category": "Strategy",
+    "developer": "Paradox Development Studio",
+    "release_year": 2016
+  },
+  {
+    "id": 70,
+    "name": "Company of Heroes 3 (Standard Edition)",
+    "price": 1737.0,
+    "description": "Company of Heroes 3 (Standard Edition) — популярная игра в жанре Strategy от студии Relic Entertainment, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как н",
+    "image_url": "static/images/games/9e7280b8290a43b792372cdfdafe3a2d.webp",
+    "category": "Strategy",
+    "developer": "Relic Entertainment",
+    "release_year": 2023
+  },
+  {
+    "id": 71,
+    "name": "Company of Heroes 3 (Deluxe Edition)",
+    "price": 4185.0,
+    "description": "Company of Heroes 3 (Deluxe Edition) — популярная игра в жанре Strategy от студии Relic Entertainment, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нов",
+    "image_url": "static/images/games/9e7280b8290a43b792372cdfdafe3a2d.webp",
+    "category": "Strategy",
+    "developer": "Relic Entertainment",
+    "release_year": 2023
+  },
+  {
+    "id": 72,
+    "name": "Company of Heroes 3 (Ultimate Edition)",
+    "price": 3507.0,
+    "description": "Company of Heroes 3 (Ultimate Edition) — популярная игра в жанре Strategy от студии Relic Entertainment, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как н",
+    "image_url": "static/images/games/9e7280b8290a43b792372cdfdafe3a2d.webp",
+    "category": "Strategy",
+    "developer": "Relic Entertainment",
+    "release_year": 2023
+  },
+  {
+    "id": 73,
+    "name": "Minecraft (Standard Edition)",
+    "price": 2610.0,
+    "description": "Minecraft (Standard Edition) — популярная игра в жанре Indie от студии Mojang Studios, выпущенная в 2011 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опы",
+    "image_url": "static/images/games/7aa5caa1e5d8425992bda3322d0e579a.webp",
+    "category": "Indie",
+    "developer": "Mojang Studios",
+    "release_year": 2011
+  },
+  {
+    "id": 74,
+    "name": "Minecraft (Deluxe Edition)",
+    "price": 4961.0,
+    "description": "Minecraft (Deluxe Edition) — популярная игра в жанре Indie от студии Mojang Studios, выпущенная в 2011 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытн",
+    "image_url": "static/images/games/7aa5caa1e5d8425992bda3322d0e579a.webp",
+    "category": "Indie",
+    "developer": "Mojang Studios",
+    "release_year": 2011
+  },
+  {
+    "id": 75,
+    "name": "Minecraft (Ultimate Edition)",
+    "price": 2198.0,
+    "description": "Minecraft (Ultimate Edition) — популярная игра в жанре Indie от студии Mojang Studios, выпущенная в 2011 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опы",
+    "image_url": "static/images/games/7aa5caa1e5d8425992bda3322d0e579a.webp",
+    "category": "Indie",
+    "developer": "Mojang Studios",
+    "release_year": 2011
+  },
+  {
+    "id": 76,
+    "name": "Terraria (Standard Edition)",
+    "price": 3055.0,
+    "description": "Terraria (Standard Edition) — популярная игра в жанре Indie от студии Re-Logic, выпущенная в 2011 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным иг",
+    "image_url": "static/images/games/fe40b34ae4db455fa7899961ee4acf57.webp",
+    "category": "Indie",
+    "developer": "Re-Logic",
+    "release_year": 2011
+  },
+  {
+    "id": 77,
+    "name": "Terraria (Deluxe Edition)",
+    "price": 857.0,
+    "description": "Terraria (Deluxe Edition) — популярная игра в жанре Indie от студии Re-Logic, выпущенная в 2011 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным игро",
+    "image_url": "static/images/games/fe40b34ae4db455fa7899961ee4acf57.webp",
+    "category": "Indie",
+    "developer": "Re-Logic",
+    "release_year": 2011
+  },
+  {
+    "id": 78,
+    "name": "Terraria (Ultimate Edition)",
+    "price": 2275.0,
+    "description": "Terraria (Ultimate Edition) — популярная игра в жанре Indie от студии Re-Logic, выпущенная в 2011 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным иг",
+    "image_url": "static/images/games/fe40b34ae4db455fa7899961ee4acf57.webp",
+    "category": "Indie",
+    "developer": "Re-Logic",
+    "release_year": 2011
+  },
+  {
+    "id": 79,
+    "name": "Stardew Valley (Standard Edition)",
+    "price": 661.0,
+    "description": "Stardew Valley (Standard Edition) — популярная игра в жанре Indie от студии ConcernedApe, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и",
+    "image_url": "static/images/games/14d9024c4ee246f4af8f8501e242e5ef.webp",
+    "category": "Indie",
+    "developer": "ConcernedApe",
+    "release_year": 2016
+  },
+  {
+    "id": 80,
+    "name": "Stardew Valley (Deluxe Edition)",
+    "price": 2983.0,
+    "description": "Stardew Valley (Deluxe Edition) — популярная игра в жанре Indie от студии ConcernedApe, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и оп",
+    "image_url": "static/images/games/14d9024c4ee246f4af8f8501e242e5ef.webp",
+    "category": "Indie",
+    "developer": "ConcernedApe",
+    "release_year": 2016
+  },
+  {
+    "id": 81,
+    "name": "Stardew Valley (Ultimate Edition)",
+    "price": 3685.0,
+    "description": "Stardew Valley (Ultimate Edition) — популярная игра в жанре Indie от студии ConcernedApe, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и ",
+    "image_url": "static/images/games/14d9024c4ee246f4af8f8501e242e5ef.webp",
+    "category": "Indie",
+    "developer": "ConcernedApe",
+    "release_year": 2016
+  },
+  {
+    "id": 82,
+    "name": "Hollow Knight (Standard Edition)",
+    "price": 2592.0,
+    "description": "Hollow Knight (Standard Edition) — популярная игра в жанре Indie от студии Team Cherry, выпущенная в 2017 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и оп",
+    "image_url": "static/images/games/f08968c7d9d24ff3bb091c70f10a9558.webp",
+    "category": "Indie",
+    "developer": "Team Cherry",
+    "release_year": 2017
+  },
+  {
+    "id": 83,
+    "name": "Hollow Knight (Deluxe Edition)",
+    "price": 941.0,
+    "description": "Hollow Knight (Deluxe Edition) — популярная игра в жанре Indie от студии Team Cherry, выпущенная в 2017 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опыт",
+    "image_url": "static/images/games/f08968c7d9d24ff3bb091c70f10a9558.webp",
+    "category": "Indie",
+    "developer": "Team Cherry",
+    "release_year": 2017
+  },
+  {
+    "id": 84,
+    "name": "Hollow Knight (Ultimate Edition)",
+    "price": 2127.0,
+    "description": "Hollow Knight (Ultimate Edition) — популярная игра в жанре Indie от студии Team Cherry, выпущенная в 2017 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и оп",
+    "image_url": "static/images/games/f08968c7d9d24ff3bb091c70f10a9558.webp",
+    "category": "Indie",
+    "developer": "Team Cherry",
+    "release_year": 2017
+  },
+  {
+    "id": 85,
+    "name": "Celeste (Standard Edition)",
+    "price": 2976.0,
+    "description": "Celeste (Standard Edition) — популярная игра в жанре Indie от студии Maddy Makes Games, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и оп",
+    "image_url": "static/images/games/15250ba6c99f4affa59b4e6aed3a742b.webp",
+    "category": "Indie",
+    "developer": "Maddy Makes Games",
+    "release_year": 2018
+  },
+  {
+    "id": 86,
+    "name": "Celeste (Deluxe Edition)",
+    "price": 2140.0,
+    "description": "Celeste (Deluxe Edition) — популярная игра в жанре Indie от студии Maddy Makes Games, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опыт",
+    "image_url": "static/images/games/15250ba6c99f4affa59b4e6aed3a742b.webp",
+    "category": "Indie",
+    "developer": "Maddy Makes Games",
+    "release_year": 2018
+  },
+  {
+    "id": 87,
+    "name": "Celeste (Ultimate Edition)",
+    "price": 4488.0,
+    "description": "Celeste (Ultimate Edition) — популярная игра в жанре Indie от студии Maddy Makes Games, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и оп",
+    "image_url": "static/images/games/15250ba6c99f4affa59b4e6aed3a742b.webp",
+    "category": "Indie",
+    "developer": "Maddy Makes Games",
+    "release_year": 2018
+  },
+  {
+    "id": 88,
+    "name": "Undertale (Standard Edition)",
+    "price": 3640.0,
+    "description": "Undertale (Standard Edition) — популярная игра в жанре Indie от студии tobyfox, выпущенная в 2015 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным иг",
+    "image_url": "static/images/games/e1388b091f7247b5bb23d9a4b2ece19b.webp",
+    "category": "Indie",
+    "developer": "tobyfox",
+    "release_year": 2015
+  },
+  {
+    "id": 89,
+    "name": "Undertale (Deluxe Edition)",
+    "price": 4157.0,
+    "description": "Undertale (Deluxe Edition) — популярная игра в жанре Indie от студии tobyfox, выпущенная в 2015 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным игро",
+    "image_url": "static/images/games/e1388b091f7247b5bb23d9a4b2ece19b.webp",
+    "category": "Indie",
+    "developer": "tobyfox",
+    "release_year": 2015
+  },
+  {
+    "id": 90,
+    "name": "Undertale (Ultimate Edition)",
+    "price": 1569.0,
+    "description": "Undertale (Ultimate Edition) — популярная игра в жанре Indie от студии tobyfox, выпущенная в 2015 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным иг",
+    "image_url": "static/images/games/e1388b091f7247b5bb23d9a4b2ece19b.webp",
+    "category": "Indie",
+    "developer": "tobyfox",
+    "release_year": 2015
+  },
+  {
+    "id": 91,
+    "name": "Dead Cells (Standard Edition)",
+    "price": 2568.0,
+    "description": "Dead Cells (Standard Edition) — популярная игра в жанре Indie от студии Motion Twin, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытн",
+    "image_url": "static/images/games/af5bcee3f82b4917b2d4ef6fb5ddc6a1.webp",
+    "category": "Indie",
+    "developer": "Motion Twin",
+    "release_year": 2018
+  },
+  {
+    "id": 92,
+    "name": "Dead Cells (Deluxe Edition)",
+    "price": 1542.0,
+    "description": "Dead Cells (Deluxe Edition) — популярная игра в жанре Indie от студии Motion Twin, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным",
+    "image_url": "static/images/games/af5bcee3f82b4917b2d4ef6fb5ddc6a1.webp",
+    "category": "Indie",
+    "developer": "Motion Twin",
+    "release_year": 2018
+  },
+  {
+    "id": 93,
+    "name": "Dead Cells (Ultimate Edition)",
+    "price": 2419.0,
+    "description": "Dead Cells (Ultimate Edition) — популярная игра в жанре Indie от студии Motion Twin, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытн",
+    "image_url": "static/images/games/af5bcee3f82b4917b2d4ef6fb5ddc6a1.webp",
+    "category": "Indie",
+    "developer": "Motion Twin",
+    "release_year": 2018
+  },
+  {
+    "id": 94,
+    "name": "Slay the Spire (Standard Edition)",
+    "price": 4997.0,
+    "description": "Slay the Spire (Standard Edition) — популярная игра в жанре Indie от студии Mega Crit, выпущенная в 2019 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опы",
+    "image_url": "static/images/games/226051df29cc46c6a9f7593d2be57508.webp",
+    "category": "Indie",
+    "developer": "Mega Crit",
+    "release_year": 2019
+  },
+  {
+    "id": 95,
+    "name": "Slay the Spire (Deluxe Edition)",
+    "price": 4814.0,
+    "description": "Slay the Spire (Deluxe Edition) — популярная игра в жанре Indie от студии Mega Crit, выпущенная в 2019 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытн",
+    "image_url": "static/images/games/226051df29cc46c6a9f7593d2be57508.webp",
+    "category": "Indie",
+    "developer": "Mega Crit",
+    "release_year": 2019
+  },
+  {
+    "id": 96,
+    "name": "Slay the Spire (Ultimate Edition)",
+    "price": 2551.0,
+    "description": "Slay the Spire (Ultimate Edition) — популярная игра в жанре Indie от студии Mega Crit, выпущенная в 2019 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опы",
+    "image_url": "static/images/games/226051df29cc46c6a9f7593d2be57508.webp",
+    "category": "Indie",
+    "developer": "Mega Crit",
+    "release_year": 2019
+  },
+  {
+    "id": 97,
+    "name": "The Last of Us Part I (Standard Edition)",
+    "price": 3908.0,
+    "description": "The Last of Us Part I (Standard Edition) — популярная игра в жанре Adventure от студии Naughty Dog, выпущенная в 2022 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичк",
+    "image_url": "static/images/games/6b038fd217c546258f7590e19deaf02a.webp",
+    "category": "Adventure",
+    "developer": "Naughty Dog",
+    "release_year": 2022
+  },
+  {
+    "id": 98,
+    "name": "The Last of Us Part I (Deluxe Edition)",
+    "price": 3670.0,
+    "description": "The Last of Us Part I (Deluxe Edition) — популярная игра в жанре Adventure от студии Naughty Dog, выпущенная в 2022 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам",
+    "image_url": "static/images/games/6b038fd217c546258f7590e19deaf02a.webp",
+    "category": "Adventure",
+    "developer": "Naughty Dog",
+    "release_year": 2022
+  },
+  {
+    "id": 99,
+    "name": "The Last of Us Part I (Ultimate Edition)",
+    "price": 3364.0,
+    "description": "The Last of Us Part I (Ultimate Edition) — популярная игра в жанре Adventure от студии Naughty Dog, выпущенная в 2022 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичк",
+    "image_url": "static/images/games/6b038fd217c546258f7590e19deaf02a.webp",
+    "category": "Adventure",
+    "developer": "Naughty Dog",
+    "release_year": 2022
+  },
+  {
+    "id": 100,
+    "name": "Uncharted 4: A Thief's End (Standard Edition)",
+    "price": 2195.0,
+    "description": "Uncharted 4: A Thief's End (Standard Edition) — популярная игра в жанре Adventure от студии Naughty Dog, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как н",
+    "image_url": "static/images/games/150813e7b9c64c33b802faee5b81c139.webp",
+    "category": "Adventure",
+    "developer": "Naughty Dog",
+    "release_year": 2016
+  },
+  {
+    "id": 101,
+    "name": "Uncharted 4: A Thief's End (Deluxe Edition)",
+    "price": 1532.0,
+    "description": "Uncharted 4: A Thief's End (Deluxe Edition) — популярная игра в жанре Adventure от студии Naughty Dog, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нов",
+    "image_url": "static/images/games/150813e7b9c64c33b802faee5b81c139.webp",
+    "category": "Adventure",
+    "developer": "Naughty Dog",
+    "release_year": 2016
+  },
+  {
+    "id": 102,
+    "name": "Uncharted 4: A Thief's End (Ultimate Edition)",
+    "price": 4573.0,
+    "description": "Uncharted 4: A Thief's End (Ultimate Edition) — популярная игра в жанре Adventure от студии Naughty Dog, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как н",
+    "image_url": "static/images/games/150813e7b9c64c33b802faee5b81c139.webp",
+    "category": "Adventure",
+    "developer": "Naughty Dog",
+    "release_year": 2016
+  },
+  {
+    "id": 103,
+    "name": "A Plague Tale: Requiem (Standard Edition)",
+    "price": 4441.0,
+    "description": "A Plague Tale: Requiem (Standard Edition) — популярная игра в жанре Adventure от студии Asobo Studio, выпущенная в 2022 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нови",
+    "image_url": "static/images/games/42e371f4141c492392c2af6a7aded133.webp",
+    "category": "Adventure",
+    "developer": "Asobo Studio",
+    "release_year": 2022
+  },
+  {
+    "id": 104,
+    "name": "A Plague Tale: Requiem (Deluxe Edition)",
+    "price": 1143.0,
+    "description": "A Plague Tale: Requiem (Deluxe Edition) — популярная игра в жанре Adventure от студии Asobo Studio, выпущенная в 2022 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичк",
+    "image_url": "static/images/games/42e371f4141c492392c2af6a7aded133.webp",
+    "category": "Adventure",
+    "developer": "Asobo Studio",
+    "release_year": 2022
+  },
+  {
+    "id": 105,
+    "name": "A Plague Tale: Requiem (Ultimate Edition)",
+    "price": 784.0,
+    "description": "A Plague Tale: Requiem (Ultimate Edition) — популярная игра в жанре Adventure от студии Asobo Studio, выпущенная в 2022 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нови",
+    "image_url": "static/images/games/42e371f4141c492392c2af6a7aded133.webp",
+    "category": "Adventure",
+    "developer": "Asobo Studio",
+    "release_year": 2022
+  },
+  {
+    "id": 106,
+    "name": "Detroit: Become Human (Standard Edition)",
+    "price": 1297.0,
+    "description": "Detroit: Become Human (Standard Edition) — популярная игра в жанре Adventure от студии Quantic Dream, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нови",
+    "image_url": "static/images/games/90b1c74a8e5d4574a58f6275ca780fa7.webp",
+    "category": "Adventure",
+    "developer": "Quantic Dream",
+    "release_year": 2018
+  },
+  {
+    "id": 107,
+    "name": "Detroit: Become Human (Deluxe Edition)",
+    "price": 1651.0,
+    "description": "Detroit: Become Human (Deluxe Edition) — популярная игра в жанре Adventure от студии Quantic Dream, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичк",
+    "image_url": "static/images/games/90b1c74a8e5d4574a58f6275ca780fa7.webp",
+    "category": "Adventure",
+    "developer": "Quantic Dream",
+    "release_year": 2018
+  },
+  {
+    "id": 108,
+    "name": "Detroit: Become Human (Ultimate Edition)",
+    "price": 1709.0,
+    "description": "Detroit: Become Human (Ultimate Edition) — популярная игра в жанре Adventure от студии Quantic Dream, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нови",
+    "image_url": "static/images/games/90b1c74a8e5d4574a58f6275ca780fa7.webp",
+    "category": "Adventure",
+    "developer": "Quantic Dream",
+    "release_year": 2018
+  },
+  {
+    "id": 109,
+    "name": "Death Stranding (Standard Edition)",
+    "price": 3857.0,
+    "description": "Death Stranding (Standard Edition) — популярная игра в жанре Adventure от студии Kojima Productions, выпущенная в 2019 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нович",
+    "image_url": "static/images/games/7c1206c0c7a945cebfbdfc20c143c6b4.webp",
+    "category": "Adventure",
+    "developer": "Kojima Productions",
+    "release_year": 2019
+  },
+  {
+    "id": 110,
+    "name": "Death Stranding (Deluxe Edition)",
+    "price": 919.0,
+    "description": "Death Stranding (Deluxe Edition) — популярная игра в жанре Adventure от студии Kojima Productions, выпущенная в 2019 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичка",
+    "image_url": "static/images/games/7c1206c0c7a945cebfbdfc20c143c6b4.webp",
+    "category": "Adventure",
+    "developer": "Kojima Productions",
+    "release_year": 2019
+  },
+  {
+    "id": 111,
+    "name": "Death Stranding (Ultimate Edition)",
+    "price": 3551.0,
+    "description": "Death Stranding (Ultimate Edition) — популярная игра в жанре Adventure от студии Kojima Productions, выпущенная в 2019 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нович",
+    "image_url": "static/images/games/7c1206c0c7a945cebfbdfc20c143c6b4.webp",
+    "category": "Adventure",
+    "developer": "Kojima Productions",
+    "release_year": 2019
+  },
+  {
+    "id": 112,
+    "name": "Firewatch (Standard Edition)",
+    "price": 3525.0,
+    "description": "Firewatch (Standard Edition) — популярная игра в жанре Adventure от студии Campo Santo, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и оп",
+    "image_url": "static/images/games/fbbd16e2991e4a298aca51d0b84107a5.webp",
+    "category": "Adventure",
+    "developer": "Campo Santo",
+    "release_year": 2016
+  },
+  {
+    "id": 113,
+    "name": "Firewatch (Deluxe Edition)",
+    "price": 4233.0,
+    "description": "Firewatch (Deluxe Edition) — популярная игра в жанре Adventure от студии Campo Santo, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опыт",
+    "image_url": "static/images/games/fbbd16e2991e4a298aca51d0b84107a5.webp",
+    "category": "Adventure",
+    "developer": "Campo Santo",
+    "release_year": 2016
+  },
+  {
+    "id": 114,
+    "name": "Firewatch (Ultimate Edition)",
+    "price": 4733.0,
+    "description": "Firewatch (Ultimate Edition) — популярная игра в жанре Adventure от студии Campo Santo, выпущенная в 2016 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и оп",
+    "image_url": "static/images/games/fbbd16e2991e4a298aca51d0b84107a5.webp",
+    "category": "Adventure",
+    "developer": "Campo Santo",
+    "release_year": 2016
+  },
+  {
+    "id": 115,
+    "name": "Life is Strange (Standard Edition)",
+    "price": 2458.0,
+    "description": "Life is Strange (Standard Edition) — популярная игра в жанре Adventure от студии Dontnod Entertainment, выпущенная в 2015 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как но",
+    "image_url": "static/images/games/3f71f666cc47429089820fad3f091f15.webp",
+    "category": "Adventure",
+    "developer": "Dontnod Entertainment",
+    "release_year": 2015
+  },
+  {
+    "id": 116,
+    "name": "Life is Strange (Deluxe Edition)",
+    "price": 4931.0,
+    "description": "Life is Strange (Deluxe Edition) — популярная игра в жанре Adventure от студии Dontnod Entertainment, выпущенная в 2015 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нови",
+    "image_url": "static/images/games/3f71f666cc47429089820fad3f091f15.webp",
+    "category": "Adventure",
+    "developer": "Dontnod Entertainment",
+    "release_year": 2015
+  },
+  {
+    "id": 117,
+    "name": "Life is Strange (Ultimate Edition)",
+    "price": 493.0,
+    "description": "Life is Strange (Ultimate Edition) — популярная игра в жанре Adventure от студии Dontnod Entertainment, выпущенная в 2015 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как но",
+    "image_url": "static/images/games/3f71f666cc47429089820fad3f091f15.webp",
+    "category": "Adventure",
+    "developer": "Dontnod Entertainment",
+    "release_year": 2015
+  },
+  {
+    "id": 118,
+    "name": "Subnautica (Standard Edition)",
+    "price": 1337.0,
+    "description": "Subnautica (Standard Edition) — популярная игра в жанре Adventure от студии Unknown Worlds Entertainment, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как",
+    "image_url": "static/images/games/009b1836d0614dc888f8631acfa3f388.webp",
+    "category": "Adventure",
+    "developer": "Unknown Worlds Entertainment",
+    "release_year": 2018
+  },
+  {
+    "id": 119,
+    "name": "Subnautica (Deluxe Edition)",
+    "price": 4797.0,
+    "description": "Subnautica (Deluxe Edition) — популярная игра в жанре Adventure от студии Unknown Worlds Entertainment, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как но",
+    "image_url": "static/images/games/009b1836d0614dc888f8631acfa3f388.webp",
+    "category": "Adventure",
+    "developer": "Unknown Worlds Entertainment",
+    "release_year": 2018
+  },
+  {
+    "id": 120,
+    "name": "Subnautica (Ultimate Edition)",
+    "price": 2584.0,
+    "description": "Subnautica (Ultimate Edition) — популярная игра в жанре Adventure от студии Unknown Worlds Entertainment, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как ",
+    "image_url": "static/images/games/009b1836d0614dc888f8631acfa3f388.webp",
+    "category": "Adventure",
+    "developer": "Unknown Worlds Entertainment",
+    "release_year": 2018
+  },
+  {
+    "id": 121,
+    "name": "Portal 2 (Standard Edition)",
+    "price": 3185.0,
+    "description": "Portal 2 (Standard Edition) — популярная игра в жанре Adventure от студии Valve, выпущенная в 2011 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным и",
+    "image_url": "static/images/games/5a21b8505b574c00ae679e696af6a9ed.webp",
+    "category": "Adventure",
+    "developer": "Valve",
+    "release_year": 2011
+  },
+  {
+    "id": 122,
+    "name": "Portal 2 (Deluxe Edition)",
+    "price": 1312.0,
+    "description": "Portal 2 (Deluxe Edition) — популярная игра в жанре Adventure от студии Valve, выпущенная в 2011 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным игр",
+    "image_url": "static/images/games/5a21b8505b574c00ae679e696af6a9ed.webp",
+    "category": "Adventure",
+    "developer": "Valve",
+    "release_year": 2011
+  },
+  {
+    "id": 123,
+    "name": "Portal 2 (Ultimate Edition)",
+    "price": 2803.0,
+    "description": "Portal 2 (Ultimate Edition) — популярная игра в жанре Adventure от студии Valve, выпущенная в 2011 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным и",
+    "image_url": "static/images/games/5a21b8505b574c00ae679e696af6a9ed.webp",
+    "category": "Adventure",
+    "developer": "Valve",
+    "release_year": 2011
+  },
+  {
+    "id": 124,
+    "name": "Resident Evil 4 (Standard Edition)",
+    "price": 3960.0,
+    "description": "Resident Evil 4 (Standard Edition) — популярная игра в жанре Horror от студии Capcom, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опыт",
+    "image_url": "static/images/games/74217accbb524ec2854032d161fd9322.webp",
+    "category": "Horror",
+    "developer": "Capcom",
+    "release_year": 2023
+  },
+  {
+    "id": 125,
+    "name": "Resident Evil 4 (Deluxe Edition)",
+    "price": 1694.0,
+    "description": "Resident Evil 4 (Deluxe Edition) — популярная игра в жанре Horror от студии Capcom, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытны",
+    "image_url": "static/images/games/74217accbb524ec2854032d161fd9322.webp",
+    "category": "Horror",
+    "developer": "Capcom",
+    "release_year": 2023
+  },
+  {
+    "id": 126,
+    "name": "Resident Evil 4 (Ultimate Edition)",
+    "price": 4115.0,
+    "description": "Resident Evil 4 (Ultimate Edition) — популярная игра в жанре Horror от студии Capcom, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опыт",
+    "image_url": "static/images/games/74217accbb524ec2854032d161fd9322.webp",
+    "category": "Horror",
+    "developer": "Capcom",
+    "release_year": 2023
+  },
+  {
+    "id": 127,
+    "name": "Silent Hill 2 (Standard Edition)",
+    "price": 425.0,
+    "description": "Silent Hill 2 (Standard Edition) — популярная игра в жанре Horror от студии Bloober Team, выпущенная в 2024 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и",
+    "image_url": "static/images/games/d67a3436105a497296fcbdd969f82b94.webp",
+    "category": "Horror",
+    "developer": "Bloober Team",
+    "release_year": 2024
+  },
+  {
+    "id": 128,
+    "name": "Silent Hill 2 (Deluxe Edition)",
+    "price": 2556.0,
+    "description": "Silent Hill 2 (Deluxe Edition) — популярная игра в жанре Horror от студии Bloober Team, выпущенная в 2024 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и оп",
+    "image_url": "static/images/games/d67a3436105a497296fcbdd969f82b94.webp",
+    "category": "Horror",
+    "developer": "Bloober Team",
+    "release_year": 2024
+  },
+  {
+    "id": 129,
+    "name": "Silent Hill 2 (Ultimate Edition)",
+    "price": 4499.0,
+    "description": "Silent Hill 2 (Ultimate Edition) — популярная игра в жанре Horror от студии Bloober Team, выпущенная в 2024 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и ",
+    "image_url": "static/images/games/d67a3436105a497296fcbdd969f82b94.webp",
+    "category": "Horror",
+    "developer": "Bloober Team",
+    "release_year": 2024
+  },
+  {
+    "id": 130,
+    "name": "Dead Space (Standard Edition)",
+    "price": 1862.0,
+    "description": "Dead Space (Standard Edition) — популярная игра в жанре Horror от студии Motive Studio, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и оп",
+    "image_url": "static/images/games/18ff25b277d1474ebfaddbf928af9a25.webp",
+    "category": "Horror",
+    "developer": "Motive Studio",
+    "release_year": 2023
+  },
+  {
+    "id": 131,
+    "name": "Dead Space (Deluxe Edition)",
+    "price": 4557.0,
+    "description": "Dead Space (Deluxe Edition) — популярная игра в жанре Horror от студии Motive Studio, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опыт",
+    "image_url": "static/images/games/18ff25b277d1474ebfaddbf928af9a25.webp",
+    "category": "Horror",
+    "developer": "Motive Studio",
+    "release_year": 2023
+  },
+  {
+    "id": 132,
+    "name": "Dead Space (Ultimate Edition)",
+    "price": 1270.0,
+    "description": "Dead Space (Ultimate Edition) — популярная игра в жанре Horror от студии Motive Studio, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и оп",
+    "image_url": "static/images/games/18ff25b277d1474ebfaddbf928af9a25.webp",
+    "category": "Horror",
+    "developer": "Motive Studio",
+    "release_year": 2023
+  },
+  {
+    "id": 133,
+    "name": "Outlast (Standard Edition)",
+    "price": 2843.0,
+    "description": "Outlast (Standard Edition) — популярная игра в жанре Horror от студии Red Barrels, выпущенная в 2013 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным",
+    "image_url": "static/images/games/60add8c58a2548d39b055b675d4fb8ca.webp",
+    "category": "Horror",
+    "developer": "Red Barrels",
+    "release_year": 2013
+  },
+  {
+    "id": 134,
+    "name": "Outlast (Deluxe Edition)",
+    "price": 4557.0,
+    "description": "Outlast (Deluxe Edition) — популярная игра в жанре Horror от студии Red Barrels, выпущенная в 2013 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным и",
+    "image_url": "static/images/games/60add8c58a2548d39b055b675d4fb8ca.webp",
+    "category": "Horror",
+    "developer": "Red Barrels",
+    "release_year": 2013
+  },
+  {
+    "id": 135,
+    "name": "Outlast (Ultimate Edition)",
+    "price": 2028.0,
+    "description": "Outlast (Ultimate Edition) — популярная игра в жанре Horror от студии Red Barrels, выпущенная в 2013 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным",
+    "image_url": "static/images/games/60add8c58a2548d39b055b675d4fb8ca.webp",
+    "category": "Horror",
+    "developer": "Red Barrels",
+    "release_year": 2013
+  },
+  {
+    "id": 136,
+    "name": "The Forest (Standard Edition)",
+    "price": 1651.0,
+    "description": "The Forest (Standard Edition) — популярная игра в жанре Horror от студии Endnight Games, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и о",
+    "image_url": "static/images/games/deee647f66a94206a1c89d13912be7ab.webp",
+    "category": "Horror",
+    "developer": "Endnight Games",
+    "release_year": 2018
+  },
+  {
+    "id": 137,
+    "name": "The Forest (Deluxe Edition)",
+    "price": 3462.0,
+    "description": "The Forest (Deluxe Edition) — популярная игра в жанре Horror от студии Endnight Games, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опы",
+    "image_url": "static/images/games/deee647f66a94206a1c89d13912be7ab.webp",
+    "category": "Horror",
+    "developer": "Endnight Games",
+    "release_year": 2018
+  },
+  {
+    "id": 138,
+    "name": "The Forest (Ultimate Edition)",
+    "price": 1722.0,
+    "description": "The Forest (Ultimate Edition) — популярная игра в жанре Horror от студии Endnight Games, выпущенная в 2018 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и о",
+    "image_url": "static/images/games/deee647f66a94206a1c89d13912be7ab.webp",
+    "category": "Horror",
+    "developer": "Endnight Games",
+    "release_year": 2018
+  },
+  {
+    "id": 139,
+    "name": "EA Sports FC 25 (Standard Edition)",
+    "price": 4817.0,
+    "description": "EA Sports FC 25 (Standard Edition) — популярная игра в жанре Sports от студии EA Vancouver, выпущенная в 2024 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так",
+    "image_url": "static/images/games/4f5b65ab6c2242429150885bf9474ca7.webp",
+    "category": "Sports",
+    "developer": "EA Vancouver",
+    "release_year": 2024
+  },
+  {
+    "id": 140,
+    "name": "EA Sports FC 25 (Deluxe Edition)",
+    "price": 4743.0,
+    "description": "EA Sports FC 25 (Deluxe Edition) — популярная игра в жанре Sports от студии EA Vancouver, выпущенная в 2024 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и ",
+    "image_url": "static/images/games/4f5b65ab6c2242429150885bf9474ca7.webp",
+    "category": "Sports",
+    "developer": "EA Vancouver",
+    "release_year": 2024
+  },
+  {
+    "id": 141,
+    "name": "EA Sports FC 25 (Ultimate Edition)",
+    "price": 403.0,
+    "description": "EA Sports FC 25 (Ultimate Edition) — популярная игра в жанре Sports от студии EA Vancouver, выпущенная в 2024 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так ",
+    "image_url": "static/images/games/4f5b65ab6c2242429150885bf9474ca7.webp",
+    "category": "Sports",
+    "developer": "EA Vancouver",
+    "release_year": 2024
+  },
+  {
+    "id": 142,
+    "name": "NBA 2K25 (Standard Edition)",
+    "price": 3054.0,
+    "description": "NBA 2K25 (Standard Edition) — популярная игра в жанре Sports от студии Visual Concepts, выпущенная в 2024 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и оп",
+    "image_url": "static/images/games/a4958de9823349c292f4f8277bc8d9cc.webp",
+    "category": "Sports",
+    "developer": "Visual Concepts",
+    "release_year": 2024
+  },
+  {
+    "id": 143,
+    "name": "NBA 2K25 (Deluxe Edition)",
+    "price": 4401.0,
+    "description": "NBA 2K25 (Deluxe Edition) — популярная игра в жанре Sports от студии Visual Concepts, выпущенная в 2024 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опыт",
+    "image_url": "static/images/games/a4958de9823349c292f4f8277bc8d9cc.webp",
+    "category": "Sports",
+    "developer": "Visual Concepts",
+    "release_year": 2024
+  },
+  {
+    "id": 144,
+    "name": "NBA 2K25 (Ultimate Edition)",
+    "price": 558.0,
+    "description": "NBA 2K25 (Ultimate Edition) — популярная игра в жанре Sports от студии Visual Concepts, выпущенная в 2024 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и оп",
+    "image_url": "static/images/games/a4958de9823349c292f4f8277bc8d9cc.webp",
+    "category": "Sports",
+    "developer": "Visual Concepts",
+    "release_year": 2024
+  },
+  {
+    "id": 145,
+    "name": "F1 24 (Standard Edition)",
+    "price": 1315.0,
+    "description": "F1 24 (Standard Edition) — популярная игра в жанре Sports от студии Codemasters, выпущенная в 2024 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным и",
+    "image_url": "static/images/games/03ca97c58ce747ea87f4fd5570b66868.webp",
+    "category": "Sports",
+    "developer": "Codemasters",
+    "release_year": 2024
+  },
+  {
+    "id": 146,
+    "name": "F1 24 (Deluxe Edition)",
+    "price": 3372.0,
+    "description": "F1 24 (Deluxe Edition) — популярная игра в жанре Sports от студии Codemasters, выпущенная в 2024 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным игр",
+    "image_url": "static/images/games/03ca97c58ce747ea87f4fd5570b66868.webp",
+    "category": "Sports",
+    "developer": "Codemasters",
+    "release_year": 2024
+  },
+  {
+    "id": 147,
+    "name": "F1 24 (Ultimate Edition)",
+    "price": 2918.0,
+    "description": "F1 24 (Ultimate Edition) — популярная игра в жанре Sports от студии Codemasters, выпущенная в 2024 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным и",
+    "image_url": "static/images/games/03ca97c58ce747ea87f4fd5570b66868.webp",
+    "category": "Sports",
+    "developer": "Codemasters",
+    "release_year": 2024
+  },
+  {
+    "id": 148,
+    "name": "Forza Horizon 5 (Standard Edition)",
+    "price": 2360.0,
+    "description": "Forza Horizon 5 (Standard Edition) — популярная игра в жанре Sports от студии Playground Games, выпущенная в 2021 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам,",
+    "image_url": "static/images/games/44b3b33c05774670881a84858d629390.webp",
+    "category": "Sports",
+    "developer": "Playground Games",
+    "release_year": 2021
+  },
+  {
+    "id": 149,
+    "name": "Forza Horizon 5 (Deluxe Edition)",
+    "price": 873.0,
+    "description": "Forza Horizon 5 (Deluxe Edition) — популярная игра в жанре Sports от студии Playground Games, выпущенная в 2021 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, та",
+    "image_url": "static/images/games/44b3b33c05774670881a84858d629390.webp",
+    "category": "Sports",
+    "developer": "Playground Games",
+    "release_year": 2021
+  },
+  {
+    "id": 150,
+    "name": "Forza Horizon 5 (Ultimate Edition)",
+    "price": 2372.0,
+    "description": "Forza Horizon 5 (Ultimate Edition) — популярная игра в жанре Sports от студии Playground Games, выпущенная в 2021 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, ",
+    "image_url": "static/images/games/44b3b33c05774670881a84858d629390.webp",
+    "category": "Sports",
+    "developer": "Playground Games",
+    "release_year": 2021
+  },
+  {
+    "id": 151,
+    "name": "Gran Turismo 7 (Standard Edition)",
+    "price": 1044.0,
+    "description": "Gran Turismo 7 (Standard Edition) — популярная игра в жанре Sports от студии Polyphony Digital, выпущенная в 2022 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам,",
+    "image_url": "static/images/games/27654abcfe364e9e983e97230d4ca3bc.webp",
+    "category": "Sports",
+    "developer": "Polyphony Digital",
+    "release_year": 2022
+  },
+  {
+    "id": 152,
+    "name": "Gran Turismo 7 (Deluxe Edition)",
+    "price": 1100.0,
+    "description": "Gran Turismo 7 (Deluxe Edition) — популярная игра в жанре Sports от студии Polyphony Digital, выпущенная в 2022 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, та",
+    "image_url": "static/images/games/27654abcfe364e9e983e97230d4ca3bc.webp",
+    "category": "Sports",
+    "developer": "Polyphony Digital",
+    "release_year": 2022
+  },
+  {
+    "id": 153,
+    "name": "Gran Turismo 7 (Ultimate Edition)",
+    "price": 4380.0,
+    "description": "Gran Turismo 7 (Ultimate Edition) — популярная игра в жанре Sports от студии Polyphony Digital, выпущенная в 2022 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, ",
+    "image_url": "static/images/games/27654abcfe364e9e983e97230d4ca3bc.webp",
+    "category": "Sports",
+    "developer": "Polyphony Digital",
+    "release_year": 2022
+  },
+  {
+    "id": 154,
+    "name": "Microsoft Flight Simulator (Standard Edition)",
+    "price": 965.0,
+    "description": "Microsoft Flight Simulator (Standard Edition) — популярная игра в жанре Simulator от студии Asobo Studio, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как",
+    "image_url": "static/images/games/55ef689daaa0463787d3370a4ce51433.webp",
+    "category": "Simulator",
+    "developer": "Asobo Studio",
+    "release_year": 2020
+  },
+  {
+    "id": 155,
+    "name": "Microsoft Flight Simulator (Deluxe Edition)",
+    "price": 4762.0,
+    "description": "Microsoft Flight Simulator (Deluxe Edition) — популярная игра в жанре Simulator от студии Asobo Studio, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как но",
+    "image_url": "static/images/games/55ef689daaa0463787d3370a4ce51433.webp",
+    "category": "Simulator",
+    "developer": "Asobo Studio",
+    "release_year": 2020
+  },
+  {
+    "id": 156,
+    "name": "Microsoft Flight Simulator (Ultimate Edition)",
+    "price": 1429.0,
+    "description": "Microsoft Flight Simulator (Ultimate Edition) — популярная игра в жанре Simulator от студии Asobo Studio, выпущенная в 2020 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как ",
+    "image_url": "static/images/games/55ef689daaa0463787d3370a4ce51433.webp",
+    "category": "Simulator",
+    "developer": "Asobo Studio",
+    "release_year": 2020
+  },
+  {
+    "id": 157,
+    "name": "Euro Truck Simulator 2 (Standard Edition)",
+    "price": 1450.0,
+    "description": "Euro Truck Simulator 2 (Standard Edition) — популярная игра в жанре Simulator от студии SCS Software, выпущенная в 2012 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нови",
+    "image_url": "static/images/games/63e3d3d8d9a1497e8688fb4832d773d4.webp",
+    "category": "Simulator",
+    "developer": "SCS Software",
+    "release_year": 2012
+  },
+  {
+    "id": 158,
+    "name": "Euro Truck Simulator 2 (Deluxe Edition)",
+    "price": 4292.0,
+    "description": "Euro Truck Simulator 2 (Deluxe Edition) — популярная игра в жанре Simulator от студии SCS Software, выпущенная в 2012 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичк",
+    "image_url": "static/images/games/63e3d3d8d9a1497e8688fb4832d773d4.webp",
+    "category": "Simulator",
+    "developer": "SCS Software",
+    "release_year": 2012
+  },
+  {
+    "id": 159,
+    "name": "Euro Truck Simulator 2 (Ultimate Edition)",
+    "price": 4902.0,
+    "description": "Euro Truck Simulator 2 (Ultimate Edition) — популярная игра в жанре Simulator от студии SCS Software, выпущенная в 2012 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нови",
+    "image_url": "static/images/games/63e3d3d8d9a1497e8688fb4832d773d4.webp",
+    "category": "Simulator",
+    "developer": "SCS Software",
+    "release_year": 2012
+  },
+  {
+    "id": 160,
+    "name": "The Sims 4 (Standard Edition)",
+    "price": 1751.0,
+    "description": "The Sims 4 (Standard Edition) — популярная игра в жанре Simulator от студии Maxis, выпущенная в 2014 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным",
+    "image_url": "static/images/games/e16b64106e1f40a287d0957369503d92.webp",
+    "category": "Simulator",
+    "developer": "Maxis",
+    "release_year": 2014
+  },
+  {
+    "id": 161,
+    "name": "The Sims 4 (Deluxe Edition)",
+    "price": 2570.0,
+    "description": "The Sims 4 (Deluxe Edition) — популярная игра в жанре Simulator от студии Maxis, выпущенная в 2014 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным и",
+    "image_url": "static/images/games/e16b64106e1f40a287d0957369503d92.webp",
+    "category": "Simulator",
+    "developer": "Maxis",
+    "release_year": 2014
+  },
+  {
+    "id": 162,
+    "name": "The Sims 4 (Ultimate Edition)",
+    "price": 4721.0,
+    "description": "The Sims 4 (Ultimate Edition) — популярная игра в жанре Simulator от студии Maxis, выпущенная в 2014 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичкам, так и опытным",
+    "image_url": "static/images/games/e16b64106e1f40a287d0957369503d92.webp",
+    "category": "Simulator",
+    "developer": "Maxis",
+    "release_year": 2014
+  },
+  {
+    "id": 163,
+    "name": "Cities: Skylines II (Standard Edition)",
+    "price": 3865.0,
+    "description": "Cities: Skylines II (Standard Edition) — популярная игра в жанре Simulator от студии Colossal Order, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нович",
+    "image_url": "static/images/games/8ff2d3acdcaf42e09567dd9d10f90095.webp",
+    "category": "Simulator",
+    "developer": "Colossal Order",
+    "release_year": 2023
+  },
+  {
+    "id": 164,
+    "name": "Cities: Skylines II (Deluxe Edition)",
+    "price": 2134.0,
+    "description": "Cities: Skylines II (Deluxe Edition) — популярная игра в жанре Simulator от студии Colossal Order, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как новичка",
+    "image_url": "static/images/games/8ff2d3acdcaf42e09567dd9d10f90095.webp",
+    "category": "Simulator",
+    "developer": "Colossal Order",
+    "release_year": 2023
+  },
+  {
+    "id": 165,
+    "name": "Cities: Skylines II (Ultimate Edition)",
+    "price": 4816.0,
+    "description": "Cities: Skylines II (Ultimate Edition) — популярная игра в жанре Simulator от студии Colossal Order, выпущенная в 2023 году. В проекте сочетаются динамичный геймплей, интересная система прогрессии, качественная постановка и высокий уровень реиграбельности. Игра подойдет как нович",
+    "image_url": "static/images/games/8ff2d3acdcaf42e09567dd9d10f90095.webp",
+    "category": "Simulator",
+    "developer": "Colossal Order",
+    "release_year": 2023
+  }
+]
