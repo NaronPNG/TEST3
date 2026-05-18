@@ -1,3 +1,4 @@
+const ADMIN_PASSWORD_SHA256 = "ac0e7d037817094e9e0b4441f9bae3209d67b02fa484917065f71b16109a1a78";
 const STORAGE_KEY = "gameStoreHexlet";
 const DATA_VERSION = 1;
 
@@ -26,7 +27,6 @@ const Store = {
         const response = await fetch("data/games.json");
         if (!response.ok) throw new Error("Failed to load games.json");
         const games = await response.json();
-        const adminHash = await hashPassword("admin123456");
         this._state = {
           version: DATA_VERSION,
           games,
@@ -35,7 +35,7 @@ const Store = {
               id: 1,
               username: "admin",
               email: "admin@gamestore.local",
-              passwordHash: adminHash,
+              passwordHash: ADMIN_PASSWORD_SHA256,
               avatarUrl: null,
               isAdmin: true,
               balance: 50000,
@@ -377,18 +377,9 @@ const Store = {
 };
 
 async function hashPassword(password) {
-  if (typeof crypto !== "undefined" && crypto.subtle && crypto.subtle.digest) {
-    const data = new TextEncoder().encode(password);
-    const hash = await crypto.subtle.digest("SHA-256", data);
-    return Array.from(new Uint8Array(hash))
-      .map((b) => b.toString(16).padStart(2, "0"))
-      .join("");
-  }
-  let hash = 0;
-  for (let i = 0; i < password.length; i++) {
-    const char = password.charCodeAt(i);
-    hash = ((hash << 5) - hash) + char;
-    hash = hash & hash;
-  }
-  return Math.abs(hash).toString(16).padStart(8, "0");
+  const data = new TextEncoder().encode(password);
+  const hash = await crypto.subtle.digest("SHA-256", data);
+  return Array.from(new Uint8Array(hash))
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
 }
