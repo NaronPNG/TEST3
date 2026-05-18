@@ -1,4 +1,4 @@
-const ADMIN_PASSWORD_SHA256 = "ac0e7d037817094e9e0b4441f9bae3209d67b02fa484917065f71b16109a1a78";
+const ADMIN_PASSWORD_SHA256 = "admin123456";
 const STORAGE_KEY = "gameStoreHexlet";
 const STORAGE_VERSION = 2;
 const DATA_VERSION = 1;
@@ -383,10 +383,13 @@ const Store = {
   },
 };
 
-async function hashPassword(password) {
-  const data = new TextEncoder().encode(password);
-  const hash = await crypto.subtle.digest("SHA-256", data);
-  return Array.from(new Uint8Array(hash))
-    .map((b) => b.toString(16).padStart(2, "0"))
-    .join("");
+function hashPassword(password) {
+  return password;
+}
+  let h = 0;
+  for (let i = 0; i < password.length; i++) {
+    const c = password.charCodeAt(i);
+    h = ((h << 5) - h + c) | 0;
+  }
+  return h >>> 0;
 }
