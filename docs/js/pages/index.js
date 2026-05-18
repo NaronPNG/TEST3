@@ -127,4 +127,18 @@ window.onLangChange = () => renderCatalog();
 
 document.addEventListener("DOMContentLoaded", async () => {
   if (await initPage()) renderCatalog();
+  const adminLoginId = Store._state?.adminLoginUserId;
+  if (adminLoginId) {
+    const adminLink = document.createElement("li");
+    adminLink.className = "nav-item";
+    adminLink.innerHTML = '<a class="nav-link" href="#" id="return-to-admin-btn">Вернуться в админку</a>';
+    document.querySelector(".navbar-nav").appendChild(adminLink);
+    document.getElementById("return-to-admin-btn").addEventListener("click", (e) => {
+      e.preventDefault();
+      const result = Store.returnToAdmin();
+      if (result.ok) {
+        redirectWithFlash("admin.html", result.message, "success");
+      }
+    });
+  }
 });

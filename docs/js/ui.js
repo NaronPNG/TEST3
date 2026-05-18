@@ -47,10 +47,10 @@ function renderNavbar() {
     navItems = `
       <li class="nav-item"><a class="nav-link" href="cart.html">${t("cart")} (${user.cart.length})</a></li>
       <li class="nav-item"><a class="nav-link" href="profile.html">${t("profile")}</a></li>`;
-    if (user.isAdmin) {
+    if (user.isAdmin || Store._state?.adminLoginUserId) {
       navItems += `<li class="nav-item"><a class="nav-link" href="admin.html">${t("admin_panel")}</a></li>`;
       if (Store._state?.adminLoginUserId) {
-        navItems += `<li class="nav-item"><a class="nav-link" href="admin.html" id="return-to-admin-btn">Вернуться в админку</a></li>`;
+        navItems += `<li class="nav-item"><a class="nav-link" href="#" id="return-to-admin-btn">Вернуться в админку</a></li>`;
       }
     }
     authLinks = `
