@@ -1,5 +1,6 @@
 const ADMIN_PASSWORD_SHA256 = "ac0e7d037817094e9e0b4441f9bae3209d67b02fa484917065f71b16109a1a78";
 const STORAGE_KEY = "gameStoreHexlet";
+const STORAGE_VERSION = 2;
 const DATA_VERSION = 1;
 
 const Store = {
@@ -14,53 +15,60 @@ const Store = {
 
   async _load() {
     const saved = localStorage.getItem(STORAGE_KEY);
+    let savedData = null;
     if (saved) {
       try {
-        this._state = JSON.parse(saved);
-        this._state.settings = this._state.settings || { theme: "light", lang: "ru" };
+        savedData = JSON.parse(saved);
       } catch (e) {
         localStorage.removeItem(STORAGE_KEY);
       }
     }
-    if (!this._state) {
-      try {
-        const response = await fetch("data/games.json");
-        if (!response.ok) throw new Error("Failed to load games.json");
-        const games = await response.json();
-        this._state = {
-          version: DATA_VERSION,
-          games,
-          users: [
-            {
-              id: 1,
-              username: "admin",
-              email: "admin@gamestore.local",
-              passwordHash: ADMIN_PASSWORD_SHA256,
-              avatarUrl: null,
-              isAdmin: true,
-              balance: 50000,
-              cart: [],
-              purchased: [],
-            },
-          ],
-          nextUserId: 2,
-          nextGameId: Math.max(0, ...games.map((g) => g.id)) + 1,
-          currentUserId: null,
-          settings: { theme: "light", lang: "ru" },
-        };
-        this._persist();
-      } catch (e) {
-        console.error("Store init error:", e);
-        this._state = {
-          version: DATA_VERSION,
-          games: [],
-          users: [],
-          nextUserId: 1,
-          nextGameId: 1,
-          currentUserId: null,
-          settings: { theme: "light", lang: "ru" },
-        };
-      }
+    if (savedData && savedData._version === STORAGE_VERSION) {
+      this._state = savedData;
+      this._state.settings = this._state.settings || { theme: "light", lang: "ru" };
+      return;
+    }
+    localStorage.removeItem(STORAGE_KEY);
+    }
+    try {
+      const response = await fetch("data/games.json");
+      if (!response.ok) throw new Error("Failed to load games.json");
+      const games = await response.json();
+      this._state = {
+        _version: STORAGE_VERSION,
+        version: DATA_VERSION,
+        games,
+        users: [
+          {
+            id: 1,
+            username: "admin",
+            email: "admin@gamestore.local",
+            passwordHash: ADMIN_PASSWORD_SHA256,
+            avatarUrl: null,
+            isAdmin: true,
+            balance: 50000,
+            cart: [],
+            purchased: [],
+          },
+        ],
+        nextUserId: 2,
+        nextGameId: Math.max(0, ...games.map((g) => g.id)) + 1,
+        currentUserId: null,
+        settings: { theme: "light", lang: "ru" },
+      };
+      this._persist();
+    } catch (e) {
+      console.error("Store init error:", e);
+      this._state = {
+        _version: STORAGE_VERSION,
+        version: DATA_VERSION,
+        games: [],
+        users: [],
+        nextUserId: 1,
+        nextGameId: 1,
+        currentUserId: null,
+        settings: { theme: "light", lang: "ru" },
+      };
     }
   },
 
